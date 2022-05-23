@@ -42,8 +42,7 @@
                             "position": "fill"
                         }
                     ],
-                    "autoProceed": true,
-                    "durationSeconds": 3
+                    "autoProceed": false
                 },
                 {
                     "audio": "audio3",
@@ -58,22 +57,43 @@
                     "durationSeconds": 3
                 },
                 {
-                    "audio": "audio4",
                     "images": [
                         {
-                            "id": "farm4",
+                            "id": "farm3stop",
                             "src": "image4",
                             "position": "fill"
                         }
                     ],
-                    "autoProceed": true
+                    "autoProceed": false
+                },
+                {
+                    "audio": "audio4",
+                    "images": [
+                        {
+                            "id": "farm4",
+                            "src": "image5",
+                            "position": "fill"
+                        }
+                    ],
+                    "autoProceed": true,
+                    "durationSeconds": 3
+                },
+                {
+                    "images": [
+                        {
+                            "id": "farm4stop",
+                            "src": "image6",
+                            "position": "fill"
+                        }
+                    ],
+                    "autoProceed": false
                 },
                 {
                     "audio": "audio5",
                     "images": [
                         {
                             "id": "farm5",
-                            "src": "image5",
+                            "src": "image7",
                             "position": "fill"
                         }
                     ],
@@ -81,11 +101,21 @@
                     "durationSeconds": 3
                 },
                 {
+                    "images": [
+                        {
+                            "id": "farm5stop",
+                            "src": "image8",
+                            "position": "fill"
+                        }
+                    ],
+                    "autoProceed": false
+                },
+                {
                     "audio": "audio6",
                     "images": [
                         {
                             "id": "farm6",
-                            "src": "image6",
+                            "src": "image9",
                             "position": "fill"
                         }
                     ],
@@ -96,110 +126,8 @@
                     "audio": "audio7",
                     "images": [
                         {
-                            "id": "farm7",
-                            "src": "image7",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": false
-                },
-                {
-                    "audio": "audio8",
-                    "images": [
-                        {
                             "id": "farm8",
-                            "src": "image8",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": true,
-                    "durationSeconds": 3
-                },
-                {
-                    "audio": "audio9",
-                    "images": [
-                        {
-                            "id": "farm9",
                             "src": "image9",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": true,
-                    "durationSeconds": 3
-                },
-                {
-                    "images": [
-                        {
-                            "id": "farm10",
-                            "src": "image10",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": false
-                },
-                {
-                    "audio": "audio10",
-                    "images": [
-                        {
-                            "id": "farm11",
-                            "src": "image11",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": true
-                },
-                {
-                    "audio": "audio11",
-                    "images": [
-                        {
-                            "id": "farm12",
-                            "src": "image12",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": true,
-                    "durationSeconds": 3
-                },
-                {
-                    "audio": "audio12",
-                    "images": [
-                        {
-                            "id": "farm13",
-                            "src": "image13",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": false
-                },
-                {
-                    "audio": "audio13",
-                    "images": [
-                        {
-                            "id": "farm14",
-                            "src": "image14",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": true,
-                    "durationSeconds": 3
-                },
-                {
-                    "audio": "audio14",
-                    "images": [
-                        {
-                            "id": "farm15",
-                            "src": "image15",
-                            "position": "fill"
-                        }
-                    ],
-                    "autoProceed": true
-                },
-                {
-                    "audio": "audio15",
-                    "images": [
-                        {
-                            "id": "farm16",
-                            "src": "image16",
                             "position": "fill"
                         }
                     ],
@@ -208,70 +136,40 @@
             ],
             "parameterSets": [
                 {
-                    "audio1": "farm1",
-                    "audio2": "farm2",
-                    "audio3": "farm3",
-                    "audio4": "farm4",
-                    "audio5": "farm5",
-                    "audio6": "farm6a",
-                    "audio7": "farm7",
-                    "audio8": "farm8",
-                    "audio9": "farm9a",
-                    "audio10": "farm10",
-                    "audio11": "farm11a",
-                    "audio12": "farm12",
-                    "audio13": "farm13",
-                    "audio14": "farm14",
-                    "audio15": "farm20",
-                    "image1": "farm1.png",
-                    "image2": "farm2.png",
-                    "image3": "farm3.png",
-                    "image4": "farm4.png",
-                    "image5": "farm4.png",
-                    "image6": "farm5a.png",
-                    "image7": "farm6.png",
-                    "image8": "farm7a.png",
-                    "image9": "farm7a.png",
-                    "image10": "farm8.png",
-                    "image11": "farm8.png",
-                    "image12": "farm9a.png",
-                    "image13": "farm10a.png",
-                    "image14": "farm10a.png",
-                    "image15": "farm11.png",
-                    "image16": "farm13.png"
+                    "audio1": "combinedfarm1",
+                    "audio2": "combinedfarm2",
+                    "audio3": "combinedfarm3a",
+                    "audio4": "combinedfarm4a",
+                    "audio5": "combinedfarm5",
+                    "audio6": "farm20",
+                    "audio7": "farm21",
+                    "image1": "farm1.gif",
+                    "image2": "farm4.png",
+                    "image3": "farm3a.gif",
+                    "image4": "farm6.png",
+                    "image5": "farm4a.gif",
+                    "image6": "farm10a.png",
+                    "image7": "farm5a.gif",
+                    "image8": "farm11.png",
+                    "image9": "farm14.png"
                 },
                 {
-                    "audio1": "farm1",
-                    "audio2": "farm2",
-                    "audio3": "farm3",
-                    "audio4": "farm4",
-                    "audio5": "farm5",
-                    "audio6": "farm6b",
-                    "audio7": "farm7",
-                    "audio8": "farm8",
-                    "audio9": "farm9b",
-                    "audio10": "farm10",
-                    "audio11": "farm11b",
-                    "audio12": "farm12",
-                    "audio13": "farm13",
-                    "audio14": "farm14",
-                    "audio15": "farm20",
-                    "image1": "farm1.png",
-                    "image2": "farm2.png",
-                    "image3": "farm3.png",
-                    "image4": "farm4.png",
-                    "image5": "farm4.png",
-                    "image6": "farm5b.png",
-                    "image7": "farm6.png",
-                    "image8": "farm7b.png",
-                    "image9": "farm7b.png",
-                    "image10": "farm8.png",
-                    "image11": "farm8.png",
-                    "image12": "farm9b.png",
-                    "image13": "farm10b.png",
-                    "image14": "farm10b.png",
-                    "image15": "farm11.png",
-                    "image16": "farm13.png"
+                  "audio1": "combinedfarm1",
+                  "audio2": "combinedfarm2",
+                  "audio3": "combinedfarm3b",
+                  "audio4": "combinedfarm4b",
+                  "audio5": "combinedfarm5",
+                  "audio6": "farm20",
+                  "audio7": "farm21",
+                  "image1": "farm1.gif",
+                  "image2": "farm4.png",
+                  "image3": "farm3b.gif",
+                  "image4": "farm6.png",
+                  "image5": "farm4b.gif",
+                  "image6": "farm10b.png",
+                  "image7": "farm5b.gif",
+                  "image8": "farm11.png",
+                  "image9": "farm14.png"
                 }
             ],
             "parameterSetWeights": [
