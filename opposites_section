@@ -1,0 +1,381 @@
+"OppositesFrameGroup": {
+    "sampler": "random-parameter-set",
+    "kind": "choice",
+    "commonFrameProperties": {
+        "kind": "exp-lookit-images-audio",
+        "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+        "audioTypes": [
+            "mp3"
+        ],
+        "autoProceed": true,
+        "doRecording": false,
+        "showPreviousButton": false,
+        "allowUserPause": false
+    },
+    "frameList": [{
+            "kind": "exp-lookit-start-recording",
+            "video": "",
+            "displayFullscreen": true,
+            "doRecording": false
+        },
+        {
+            "audio": "audio1",
+            "images": [{
+                "id": "farm1",
+                "src": "image1",
+                "position": "fill"
+            }],
+            "autoProceed": true,
+            "displayFullscreen": true,
+            "durationSeconds": 3
+        },
+        {
+            "audio": "audio2",
+            "images": [{
+                "id": "farm2",
+                "src": "image2",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": false
+        },
+        {
+            "audio": "audio3",
+            "images": [{
+                "id": "farm3",
+                "src": "image3",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": true,
+            "durationSeconds": 3
+        },
+        {
+            "images": [{
+                "id": "farm3stop",
+                "src": "image4",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": false
+        },
+        {
+            "audio": "audio4",
+            "images": [{
+                "id": "farm4",
+                "src": "image5",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": true,
+            "durationSeconds": 3
+        },
+        {
+            "audio": "audio5",
+            "images": [{
+                "id": "farm4stop",
+                "src": "image6",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": false
+        },
+        {
+            "audio": "audio6",
+            "images": [{
+                "id": "farm5",
+                "src": "image7",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoproceed": true,
+            "durationSeconds": 3
+        },
+        {
+            "images": [{
+                "id": "farm5stop",
+                "src": "image8",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": false
+        },
+        {
+            "audio": "audio7",
+            "images": [{
+                "id": "farm6",
+                "src": "image9",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": true,
+            "durationSeconds": 3
+        },
+        {
+            "audio": "audio8",
+            "images": [{
+                "id": "farm8",
+                "src": "image9",
+                "position": "fill"
+            }],
+            "displayFullscreen": true,
+            "autoProceed": true
+        },
+        {
+            "audio": "Control1",
+            "images": [{
+                    "id": "emptyscene1",
+                    "src": "farm14.png",
+                    "position": "fill",
+                    "nonChoiceOption": true
+                },
+                {
+                    "id": "left1",
+                    "src": "farmleft.png",
+                    "top": 83,
+                    "left": 20,
+                    "width": 15,
+                    "correct": true
+                },
+                {
+                    "id": "right1",
+                    "src": "farmright.png",
+                    "top": 83,
+                    "left": 70,
+                    "width": 15,
+                    "correct": true
+                }
+            ],
+            "canMakeChoiceBeforeAudioFinished": false,
+            "choiceRequired": true,
+            "parentTextBlock": {
+                "css": {
+                    "font-size": "13pt",
+                    "padding": "0.5em"
+                },
+                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                "title": "For Parents"
+            },
+            "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+            "highlights": [{
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "left1"
+                },
+                {
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "right1"
+                }
+            ]
+        },
+        {
+            "audio": "Control2",
+            "images": [{
+                    "id": "emptyscene2",
+                    "src": "farm14.png",
+                    "position": "fill",
+                    "nonChoiceOption": true
+                },
+                {
+                    "id": "left2",
+                    "src": "farmleft.png",
+                    "top": 83,
+                    "left": 20,
+                    "width": 15
+                },
+                {
+                    "id": "right2",
+                    "src": "farmright.png",
+                    "top": 83,
+                    "left": 70,
+                    "width": 15
+                }
+            ],
+            "choiceRequired": true,
+            "canMakeChoiceBeforeAudioFinished": false,
+            "parentTextBlock": {
+                "css": {
+                    "font-size": "13pt",
+                    "padding": "0.5em"
+                },
+                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                "title": "For Parents"
+            },
+            "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+            "highlights": [{
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "left2"
+                },
+                {
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "right2"
+                }
+            ]
+        },
+        {
+            "audio": "FB",
+            "images": [{
+                    "id": "emptyscene3",
+                    "src": "farm14.png",
+                    "position": "fill",
+                    "nonChoiceOption": true
+                },
+                {
+                    "id": "left3",
+                    "src": "farmleft.png",
+                    "top": 83,
+                    "left": 20,
+                    "width": 15
+                },
+                {
+                    "id": "right3",
+                    "src": "farmright.png",
+                    "top": 83,
+                    "left": 70,
+                    "width": 15
+                }
+            ],
+            "parentTextBlock": {
+                "css": {
+                    "font-size": "13pt",
+                    "padding": "0.5em"
+                },
+                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                "title": "For Parents"
+            },
+            "choiceRequired": true,
+            "canMakeChoiceBeforeAudioFinished": false,
+            "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+            "highlights": [{
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "left3"
+                },
+                {
+                    "range": [
+                        2,
+                        5
+                    ],
+                    "imageId": "right3"
+                }
+            ]
+        },
+
+        {
+            "kind": "exp-lookit-stop-recording",
+            "video": "",
+            "image": "",
+            "displayFullscreen": true,
+            "doRecording": false
+        }
+    ],
+    "parameterSets": [{
+            "audio1": "combinedfarm1",
+            "audio2": "combinedfarm2",
+            "audio3": "combinedfarm3a",
+            "audio4": "combinedfarm4a",
+            "audio5": "farm12",
+            "audio6": "combinedfarm5",
+            "audio7": "farm20",
+            "audio8": "farm21",
+            "Control1": "farmMC1",
+            "Control2": "farmRC",
+            "FB": "farmFB1",
+            "image1": "farm1.gif",
+            "image2": "farm4.png",
+            "image3": "farm3a.gif",
+            "image4": "farm6.png",
+            "image5": "farm4a.gif",
+            "image6": "farm10a.png",
+            "image7": "farm5a.gif",
+            "image8": "farm11.png",
+            "image9": "farm14.png"
+        },
+        {
+            "audio1": "combinedfarm1",
+            "audio2": "combinedfarm2",
+            "audio3": "combinedfarm3b",
+            "audio4": "combinedfarm4b",
+            "audio5": "farm12",
+            "audio6": "combinedfarm5",
+            "audio7": "farm20",
+            "audio8": "farm21",
+            "Control1": "farmMC1",
+            "Control2": "farmRC",
+            "FB": "farmFB1",
+            "image1": "farm1.gif",
+            "image2": "farm4.png",
+            "image3": "farm3b.gif",
+            "image4": "farm6.png",
+            "image5": "farm4b.gif",
+            "image6": "farm10b.png",
+            "image7": "farm5b.gif",
+            "image8": "farm11.png",
+            "image9": "farm14.png"
+        },
+        {
+            "audio1": "combinedfarm1",
+            "audio2": "combinedfarm2",
+            "audio3": "combinedfarm3a",
+            "audio4": "combinedfarm4a",
+            "audio5": "farm12",
+            "audio6": "combinedfarm5",
+            "audio7": "farm20",
+            "audio8": "farm21",
+            "Control1": "farmRC",
+            "Control2": "farmMC1",
+            "FB": "farmFB1",
+            "image1": "farm1.gif",
+            "image2": "farm4.png",
+            "image3": "farm3a.gif",
+            "image4": "farm6.png",
+            "image5": "farm4a.gif",
+            "image6": "farm10a.png",
+            "image7": "farm5a.gif",
+            "image8": "farm11.png",
+            "image9": "farm14.png"
+        },
+        {
+            "audio1": "combinedfarm1",
+            "audio2": "combinedfarm2",
+            "audio3": "combinedfarm3b",
+            "audio4": "combinedfarm4b",
+            "audio5": "farm12",
+            "audio6": "combinedfarm5",
+            "audio7": "farm20",
+            "audio8": "farm21",
+            "Control1": "farmRC",
+            "Control2": "farmMC1",
+            "FB": "farmFB1",
+            "image1": "farm1.gif",
+            "image2": "farm4.png",
+            "image3": "farm3b.gif",
+            "image4": "farm6.png",
+            "image5": "farm4b.gif",
+            "image6": "farm10b.png",
+            "image7": "farm5b.gif",
+            "image8": "farm11.png",
+            "image9": "farm14.png"
+        }
+    ],
+    "parameterSetWeights": [
+        1,
+        1,
+        1,
+        1
+    ]
+}
+}

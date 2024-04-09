@@ -1,0 +1,3265 @@
+{
+    "frames": {
+      "testFrameGroup": {
+          "sampler": "permute",
+          "kind": "choice",
+          "frameOptions": [
+              {
+                  "kind": "choice",
+                  "sampler": "random-parameter-set",
+                  "commonFrameProperties": {
+                      "kind": "exp-lookit-images-audio",
+                      "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                      "audioTypes": [
+                          "mp3"
+                      ],
+                      "autoProceed": true,
+                      "doRecording": true,
+                      "choiceRequired": true,
+                      "showPreviousButton": false,
+                      "allowUserPause": false,
+                      "waitForRecordingMessageColor": "black"
+                  },
+                  "frameList": [
+                      {
+                          "kind": "exp-lookit-start-recording",
+                          "video": "",
+                          "displayFullscreen": true,
+                          "doRecording": false
+                      },
+                      {
+                          "audio": "instruction_1",
+                          "images": [
+                              {
+                                  "id": "intro2",
+                                  "src": "alien_1.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Now we are all ready for the game! Today we are playing a guessing game with our friend, an alien from another planet."
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_2",
+                          "images": [
+                              {
+                                  "id": "intro3",
+                                  "src": "alien_8.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Our alien friend does not know much about Earth and how things work here, like how someone can hide different objects in boxes!"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_3",
+                          "images": [
+                              {
+                                  "id": "intro4",
+                                  "src": "trial-view-1.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Your job today is to help our alien friend figure out a box shaking game."
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_4",
+                          "images": [
+                              {
+                                  "id": "intro4",
+                                  "src": "AA-s-demo.gif",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Here’s someone playing with a box! They are trying to guess what is hidden inside the box."
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_5",
+                          "images": [
+                              {
+                                "id": "practicestim",
+                                "src": "AA-ns-demo.gif",
+                                "position": "fill",
+                                "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              }
+                          ],
+                          "highlights": "HIGHLIGHTS-1",
+                          "autoProceed": true,
+                          "choiceRequired": false,
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+                        "audio": {
+                          "loop": false,
+                          "source": "instruction_red1"
+                        },
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "redbox-demo1"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "The red boxes are special. They have 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+                        "audio": {
+                          "loop": false,
+                          "source": "instruction_red2"
+                        },
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "redbox-demo2"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "The red boxes are special. They have 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+                        "audio": {
+                          "loop": false,
+                          "source": "instruction_blue1"
+                        },
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "bluebox-demo1"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "Blue boxes are special in a different way! They have a cube OR a sphere inside. (If your child needs a break, press the space bar to pause!)"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+                        "audio": {
+                          "loop": false,
+                          "source": "instruction_blue2"
+                        },
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "bluebox-demo2"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "Blue boxes are special in a different way! They have a cube OR a sphere inside. (If your child needs a break, press the space bar to pause!)"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                          "audio": "instruction_6",
+                          "images": [
+                              {
+                                  "id": "intro6",
+                                  "src": "trial-view-1.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "You will tell our alien friend which kind of box someone’s shaking!"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_7",
+                          "images": [
+                              {
+                                "id": "practicestim",
+                                "src": "trial-view-4.png",
+                                "position": "fill",
+                                "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              }
+                          ],
+                          "highlights": "HIGHLIGHTS-1",
+                          "autoProceed": true,
+                          "choiceRequired": false,
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "To indicate your answer, please click on the picture of the red box, if you think it’s a red box, and click on the picture of the blue box, if you think the answer is the blue box. Your parent can also click on the one you choose.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                          "audio": "instruction_8",
+                          "images": [
+                              {
+                                  "id": "intro5",
+                                  "src": "alien_3.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Our friend will give you a STAR each time you pick the boxes correctly."
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_9",
+                          "images": [
+                              {
+                                  "id": "intro6",
+                                  "src": "alien_7.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Sometimes you might find it easy, other times you might find it tricky. When it is tricky, it is okay to guess!"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_10",
+                          "images": [
+                              {
+                                  "id": "intro7",
+                                  "src": "trial_view_3.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_practice1",
+                          "images": [
+                              {
+                                  "id": "intro7",
+                                  "src": "alien_2.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Let's practice!"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_practice2",
+                          "images": [
+                              {
+                                  "id": "intro7",
+                                  "src": "AA-ns-demo.gif",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Let's practice!"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "AA-ns"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "If your child needs a break, press the space bar to pause!"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                          "audio": "whichbox",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "AA-test-n.gif",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          },
+                          "correctChoiceRequired": true
+                      },
+                      {
+                          "audio": "whichbox",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "AA-test-s.gif",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          },
+                          "correctChoiceRequired": true
+                      },
+                      {
+                          "audio": "whichhasmore",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "you_2_1.jpg",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "left.jpg",
+                                  "top": "65",
+                                  "left": "31",
+                                  "width": "8",
+                                  "correct": true,
+                                  "feedbackAudio": "yay"
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "right.jpg",
+                                  "top": "66",
+                                  "left": "62",
+                                  "width": "8",
+                                  "correct": false,
+                                  "feedbackAudio": "sorry"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                          "audio": "whichhasmore",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "you_25_16.jpg",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "left.jpg",
+                                  "top": "65",
+                                  "left": "31",
+                                  "width": "8",
+                                  "correct": true,
+                                  "feedbackAudio": "yay"
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "right.jpg",
+                                  "top": "66",
+                                  "left": "62",
+                                  "width": "8",
+                                  "correct": false,
+                                  "feedbackAudio": "sorry"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                          "audio": "whichhasmore",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "you_16_25.jpg",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "left.jpg",
+                                  "top": "65",
+                                  "left": "31",
+                                  "width": "8",
+                                  "correct": false,
+                                  "feedbackAudio": "sorry"
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "right.jpg",
+                                  "top": "66",
+                                  "left": "62",
+                                  "width": "8",
+                                  "correct": true,
+                                  "feedbackAudio": "yay"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                          "audio": "whichhasmore",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "you_13_26.jpg",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "left.jpg",
+                                  "top": "65",
+                                  "left": "31",
+                                  "width": "8",
+                                  "correct": false,
+                                  "feedbackAudio": "sorry"
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "right.jpg",
+                                  "top": "66",
+                                  "left": "62",
+                                  "width": "8",
+                                  "correct": true,
+                                  "feedbackAudio": "yay"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                          "audio": "whichhasmore",
+                          "images": [
+                              {
+                                  "id": "stim",
+                                  "src": "you_26_13.jpg",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "left.jpg",
+                                  "top": "65",
+                                  "left": "31",
+                                  "width": "8",
+                                  "correct": true,
+                                  "feedbackAudio": "yay"
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "right.jpg",
+                                  "top": "66",
+                                  "left": "62",
+                                  "width": "8",
+                                  "correct": false,
+                                  "feedbackAudio": "sorry"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          }
+                      },
+                      {
+                          "audio": "alien_13",
+                          "images": [
+                              {
+                                  "id": "collect",
+                                  "src": "alien_13.png",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Look at how many stars you got so far! Great job! Let's try and get some more by continuing to help our alien friend"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "instruction_9",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_11.jpg",
+                                  "position": "fill"
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "You're doing great! Now it's time to help our friend guess which bowl these people and animals will choose"
+                              ]
+                          },
+                          "choiceRequired": false
+                      },
+                      {
+                          "audio": "monkey_tell",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_monkey.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "yes.jpg",
+                                  "top": "90",
+                                  "left": "59",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "no.jpg",
+                                  "top": "90",
+                                  "left": "74",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Do you think the monkey can tell the berries apart? (please click on either the YES or NO image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "better_worse_same",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_monkey.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "better.jpg",
+                                  "top": "90",
+                                  "left": "56",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "middle",
+                                  "src": "same.jpg",
+                                  "top": "90",
+                                  "left": "80",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "worse.jpg",
+                                  "top": "90",
+                                  "left": "68",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "So compared to yourself, do you think they're better, worse, or about the same? (please click on either the BETTER, WORSE or SAME image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "adult_tell",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_adult.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "yes.jpg",
+                                  "top": "90",
+                                  "left": "59",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "no.jpg",
+                                  "top": "90",
+                                  "left": "74",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Do you think the adult tell the berries apart? (please click on either the YES or NO image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "better_worse_same",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_adult.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "better.jpg",
+                                  "top": "90",
+                                  "left": "56",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "middle",
+                                  "src": "same.jpg",
+                                  "top": "90",
+                                  "left": "80",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "worse.jpg",
+                                  "top": "90",
+                                  "left": "68",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "So compared to yourself, do you think they're better, worse, or about the same? (please click on either the BETTER, WORSE or SAME image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "ant_tell",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_ant.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "yes.jpg",
+                                  "top": "90",
+                                  "left": "59",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "no.jpg",
+                                  "top": "90",
+                                  "left": "74",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Do you think the ant can tell the berries apart? (please click on either the YES or NO image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "better_worse_same",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_ant.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "better.jpg",
+                                  "top": "90",
+                                  "left": "56",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "middle",
+                                  "src": "same.jpg",
+                                  "top": "90",
+                                  "left": "80",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "worse.jpg",
+                                  "top": "90",
+                                  "left": "68",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "So compared to yourself, do you think they're better, worse, or about the same? (please click on either the BETTER, WORSE or SAME image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "baby_tell",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_baby.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "yes.jpg",
+                                  "top": "90",
+                                  "left": "59",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "no.jpg",
+                                  "top": "90",
+                                  "left": "74",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Do you think the baby can tell the berries apart? (please click on either the YES or NO image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "better_worse_same",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_baby.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "better.jpg",
+                                  "top": "90",
+                                  "left": "56",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "middle",
+                                  "src": "same.jpg",
+                                  "top": "90",
+                                  "left": "80",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "worse.jpg",
+                                  "top": "90",
+                                  "left": "68",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "So compared to yourself, do you think they're better, worse, or about the same? (please click on either the BETTER, WORSE or SAME image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "child_tell",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_child.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "yes.jpg",
+                                  "top": "90",
+                                  "left": "59",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "no.jpg",
+                                  "top": "90",
+                                  "left": "74",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Do you think the child can tell the berries apart? (please click on either the YES or NO image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "better_worse_same",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_child.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "better.jpg",
+                                  "top": "90",
+                                  "left": "56",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "middle",
+                                  "src": "same.jpg",
+                                  "top": "90",
+                                  "left": "80",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "worse.jpg",
+                                  "top": "90",
+                                  "left": "68",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "So compared to yourself, do you think they're better, worse, or about the same? (please click on either the BETTER, WORSE or SAME image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "turtle_tell",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_turtle.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "yes.jpg",
+                                  "top": "90",
+                                  "left": "59",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "no.jpg",
+                                  "top": "90",
+                                  "left": "74",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "Do you think the turtle can tell the berries apart? (please click on either the YES or NO image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "audio": "better_worse_same",
+                          "images": [
+                              {
+                                  "id": "transition",
+                                  "src": "alien_turtle.png",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "left",
+                                  "src": "better.jpg",
+                                  "top": "90",
+                                  "left": "56",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "middle",
+                                  "src": "same.jpg",
+                                  "top": "90",
+                                  "left": "80",
+                                  "width": "8",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "right",
+                                  "src": "worse.jpg",
+                                  "top": "90",
+                                  "left": "68",
+                                  "width": "8",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "text": [
+                                  "So compared to yourself, do you think they're better, worse, or about the same? (please click on either the BETTER, WORSE or SAME image above)"
+                              ]
+                          }
+                      },
+                      {
+                          "kind": "exp-lookit-stop-recording",
+                          "video": "",
+                          "image": "",
+                          "displayFullscreen": true,
+                          "doRecording": false
+                      }
+                  ],
+                  "parameterSets": [
+                      {
+                          "HIGHLIGHTS-1": [
+                              {
+                                  "range": [
+                                      14.75,
+                                      17
+                                  ],
+                                  "imageId": "left"
+                              },
+                              {
+                                  "range": [
+                                      18,
+                                      20
+                                  ],
+                                  "imageId": "right"
+                              }
+                          ],
+                          "HIGHLIGHTS-2": [
+                              {
+                                  "range": [
+                                      8,
+                                      10
+                                  ],
+                                  "imageId": "left"
+                              },
+                              {
+                                  "range": [
+                                      11,
+                                      13
+                                  ],
+                                  "imageId": "right"
+                              }
+                          ]
+                      }
+                  ]
+              }
+          ]
+      },
+      "study-alldone": {
+          "kind": "exp-lookit-images-audio",
+          "audio": "alldone",
+          "images": [
+              {
+                  "id": "intro1",
+                  "src": "alien_10.png",
+                  "position": "fill"
+              }
+          ],
+          "parentTextBlock": {
+              "text": [
+                  "Yay! Great job! Look at all the stars you got! Thank you for helping our friends. You are all done!"
+              ]
+          },
+          "choiceRequired": false,
+          "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+          "showPreviousButton": false,
+          "allowUserPause": false,
+          "waitForRecordingMessageColor": "black"
+      },
+        "agentFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "adult_choose",
+                            "images": [
+                                {
+                                    "id": "introADULT",
+                                    "src": "adult_bg.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next, you will help our alien friend guess which bowl the adult will choose."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you guessed their choice correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_12.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "adult_1_2.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "adult_2_1.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "adult_25_16.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "adult_16_25.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "adult_13_26.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "adult_26_13.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "baby_choose",
+                            "images": [
+                                {
+                                    "id": "introBABY",
+                                    "src": "baby_bg.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next, you will help our alien friend guess which bowl the baby will choose."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you guessed their choice correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_12.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "baby_1_2.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "baby_2_1.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "baby_25_16.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "baby_16_25.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "baby_13_26.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "baby_26_13.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "child_choose",
+                            "images": [
+                                {
+                                    "id": "introCHILD",
+                                    "src": "child_bg.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next, you will help our alien friend guess which bowl the child will choose."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you guessed their choice correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_12.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "child_1_2.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "child_2_1.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "child_25_16.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "child_16_25.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "child_13_26.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "child_26_13.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "monkey_choose",
+                            "images": [
+                                {
+                                    "id": "introMONKEY",
+                                    "src": "monkey_bg.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next, you will help our alien friend guess which bowl the monkey will choose."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you guessed their choice correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_12.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "monkey_1_2.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "monkey_2_1.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "monkey_25_16.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "monkey_16_25.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "monkey_13_26.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "monkey_26_13.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "turtle_choose",
+                            "images": [
+                                {
+                                    "id": "introTURTLE",
+                                    "src": "turtle_bg.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next, you will help our alien friend guess which bowl the turtle will choose."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you guessed their choice correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_12.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "turtle_1_2.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "turtle_2_1.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "turtle_25_16.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "turtle_16_25.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "turtle_13_26.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "turtle_26_13.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "ant_choose",
+                            "images": [
+                                {
+                                    "id": "introANT",
+                                    "src": "ant_bg.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next, you will help our alien friend guess which bowl the ant will choose."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you guessed their choice correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_12.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "ant_1_2.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "ant_2_1.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "ant_25_16.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "ant_16_25.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "ant_13_26.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "whichchoose",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "ant_26_13.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "left.jpg",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "right.jpg",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "sequence": [
+        "testFrameGroup",
+        "agentFrameGroup",
+        "study-alldone"
+    ]
+}

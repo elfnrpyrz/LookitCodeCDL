@@ -1,0 +1,395 @@
+{
+    "frames": {
+        "farmStoryFrameGroup": {
+            "sampler": "random-parameter-set",
+            "kind": "choice",
+            "commonFrameProperties": {
+                "kind": "exp-lookit-images-audio",
+                "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+                "audioTypes": [
+                    "mp3"
+                ],
+                "autoProceed": true,
+                "doRecording": true,
+                "showPreviousButton": false,
+                "allowUserPause": false
+            },
+            "frameList": [{
+                    "kind": "exp-lookit-start-recording",
+                    "video": "",
+                    "displayFullscreen": true,
+                    "doRecording": false
+                },
+                {
+                    "audio": "audio1",
+                    "images": [{
+                        "id": "farm1",
+                        "src": "image1",
+                        "position": "fill"
+                    }],
+                    "autoProceed": true,
+                    "durationSeconds": 3
+                },
+                {
+                    "audio": "audio2",
+                    "images": [{
+                        "id": "farm2",
+                        "src": "image2",
+                        "position": "fill"
+                    }],
+                    "autoProceed": false
+                },
+                {
+                    "audio": "audio3",
+                    "images": [{
+                        "id": "farm3",
+                        "src": "image3",
+                        "position": "fill"
+                    }],
+                    "autoProceed": true,
+                    "durationSeconds": 3
+                },
+                {
+                    "images": [{
+                        "id": "farm3stop",
+                        "src": "image4",
+                        "position": "fill"
+                    }],
+                    "autoProceed": false
+                },
+                {
+                    "audio": "audio4",
+                    "images": [{
+                        "id": "farm4",
+                        "src": "image5",
+                        "position": "fill"
+                    }],
+                    "autoProceed": true,
+                    "durationSeconds": 3
+                },
+                {
+                    "images": [{
+                        "id": "farm4stop",
+                        "src": "image6",
+                        "position": "fill"
+                    }],
+                    "autoProceed": false
+                },
+                {
+                    "audio": "audio5",
+                    "images": [{
+                        "id": "farm5",
+                        "src": "image7",
+                        "position": "fill"
+                    }],
+                    "autoproceed": true,
+                    "durationSeconds": 3
+                },
+                {
+                    "images": [{
+                        "id": "farm5stop",
+                        "src": "image8",
+                        "position": "fill"
+                    }],
+                    "autoProceed": false
+                },
+                {
+                    "audio": "audio6",
+                    "images": [{
+                        "id": "farm6",
+                        "src": "image9",
+                        "position": "fill"
+                    }],
+                    "autoProceed": true,
+                    "durationSeconds": 3
+                },
+                {
+                    "audio": "audio7",
+                    "images": [{
+                        "id": "farm8",
+                        "src": "image9",
+                        "position": "fill"
+                    }],
+                    "autoProceed": false
+                }
+            ],
+            "parameterSets": [{
+                    "audio1": "combinedfarm1",
+                    "audio2": "combinedfarm2",
+                    "audio3": "combinedfarm3a",
+                    "audio4": "combinedfarm4a",
+                    "audio5": "combinedfarm5",
+                    "audio6": "farm20",
+                    "audio7": "farm21",
+                    "image1": "farm1.gif",
+                    "image2": "farm4.png",
+                    "image3": "farm3a.gif",
+                    "image4": "farm6.png",
+                    "image5": "farm4a.gif",
+                    "image6": "farm10a.png",
+                    "image7": "farm5a.gif",
+                    "image8": "farm11.png",
+                    "image9": "farm14.png"
+                },
+                {
+                    "audio1": "combinedfarm1",
+                    "audio2": "combinedfarm2",
+                    "audio3": "combinedfarm3b",
+                    "audio4": "combinedfarm4b",
+                    "audio5": "combinedfarm5",
+                    "audio6": "farm20",
+                    "audio7": "farm21",
+                    "image1": "farm1.gif",
+                    "image2": "farm4.png",
+                    "image3": "farm3b.gif",
+                    "image4": "farm6.png",
+                    "image5": "farm4b.gif",
+                    "image6": "farm10b.png",
+                    "image7": "farm5b.gif",
+                    "image8": "farm11.png",
+                    "image9": "farm14.png"
+                }
+            ],
+            "parameterSetWeights": [
+                1,
+                1
+            ]
+        },
+        "farmControlQuestionsFrameGroup": {
+            "sampler": "random-parameter-set",
+            "kind": "choice",
+            "commonFrameProperties": {
+                "kind": "exp-lookit-images-audio",
+                "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+                "audioTypes": [
+                    "mp3"
+                ],
+                "autoProceed": false,
+                "doRecording": true,
+                "showPreviousButton": false,
+                "allowUserPause": false
+            },
+            "frameList": [{
+                    "audio": "",
+                    "images": [{
+                            "id": "emptyscene",
+                            "src": "farm14.png",
+                            "position": "fill",
+                            "nonChoiceOption": true
+                        },
+                        {
+                            "id": "left",
+                            "src": "farmleft.png",
+                            "top": 90,
+                            "left": 10,
+                            "width": 5,
+                            "correct": true
+                        },
+                        {
+                            "id": "right",
+                            "src": "farmright.png",
+                            "top": 90,
+                            "left": 90,
+                            "width": 5,
+                            "correct": true
+                        }
+                    ],
+                    "autoProceed": true,
+                    "choiceRequired": false,
+                    "parentTextBlock": {
+                        "css": {
+                            "font-size": "13pt",
+                            "padding": "0.5em"
+                        },
+                        "text": "Next, you will answer some questions about the story. Whatever you think the answer is, you can click on it on the screen!",
+                        "title": "For Parents"
+                    },
+                    "highlights": [{
+                            "range": [
+                                0,
+                                1.5
+                            ],
+                            "imageId": "left"
+                        },
+                        {
+                            "range": [
+                                1.5,
+                                3
+                            ],
+                            "imageId": "right"
+                        }
+                    ]
+                },
+                {
+                    "audio": "farmRC",
+                    "images": [{
+                            "id": "emptyscene",
+                            "src": "farm14.png",
+                            "position": "fill",
+                            "nonChoiceOption": true
+                        },
+                        {
+                            "id": "left",
+                            "src": "farmleft.png",
+                            "top": 90,
+                            "left": 20,
+                            "width": 5,
+                            "correct": true
+                        },
+                        {
+                            "id": "right",
+                            "src": "farmright.png",
+                            "top": 90,
+                            "left": 80,
+                            "width": 5,
+                            "correct": true
+                        }
+                    ],
+                    "canMakeChoiceBeforeAudioFinished": false,
+                    "choiceRequired": true,
+                    "parentTextBlock": {
+                        "css": {
+                            "font-size": "13pt",
+                            "padding": "0.5em"
+                        },
+                        "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                        "title": "For Parents"
+                    },
+                    "highlights": [{
+                            "range": [
+                                0,
+                                1.5
+                            ],
+                            "imageId": "left"
+                        },
+                        {
+                            "range": [
+                                1.5,
+                                3
+                            ],
+                            "imageId": "right"
+                        }
+                    ]
+                },
+                {
+                    "audio": "farmMC1",
+                    "images": [{
+                            "id": "emptyscene",
+                            "src": "farm14.png",
+                            "position": "fill",
+                            "nonChoiceOption": true
+                        },
+                        {
+                            "id": "left",
+                            "src": "farmleft.png",
+                            "top": 66,
+                            "left": 31,
+                            "width": 8
+                        },
+                        {
+                            "id": "right",
+                            "src": "farmright.png",
+                            "top": 66,
+                            "left": 62,
+                            "width": 8
+                        }
+                    ],
+                    "choiceRequired": true,
+                    "canMakeChoiceBeforeAudioFinished": false,
+                    "parentTextBlock": {
+                        "css": {
+                            "font-size": "13pt",
+                            "padding": "0.5em"
+                        },
+                        "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                        "title": "For Parents"
+                    },
+                    "highlights": [{
+                            "range": [
+                                0,
+                                1.5
+                            ],
+                            "imageId": "left"
+                        },
+                        {
+                            "range": [
+                                1.5,
+                                3
+                            ],
+                            "imageId": "right"
+                        }
+                    ]
+                },
+                {
+                    "kind": "exp-lookit-stop-recording",
+                    "video": "",
+                    "image": "",
+                    "displayFullscreen": true,
+                    "doRecording": false
+                }
+            ]
+        },
+    "farmFBQuestionFrameGroup": {
+        "kind": "exp-lookit-images-audio",
+            "frameList": [{
+                "audio": "farmFB1.mp3",
+                "images": [{
+                        "id": "emptyscene",
+                        "src": "farm14.png",
+                        "position": "fill",
+                        "nonChoiceOption": true
+                    },
+                    {
+                        "id": "left",
+                        "src": "farmleft.png",
+                        "top": 66,
+                        "left": 31,
+                        "width": 8
+                    },
+                    {
+                        "id": "right",
+                        "src": "farmright.png",
+                        "top": 66,
+                        "left": 62,
+                        "width": 8
+                    }
+                ],
+                "parentTextBlock": {
+                    "css": {
+                        "font-size": "13pt",
+                        "padding": "0.5em"
+                    },
+                    "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                    "title": "For Parents"
+                },
+                "highlights": [{
+                        "range": [
+                            0,
+                            1.5
+                        ],
+                        "imageId": "left"
+                    },
+                    {
+                        "range": [
+                            1.5,
+                            3
+                        ],
+                        "imageId": "right"
+                    }
+                ],
+                "kind": "exp-lookit-images-audio",
+                "baseDir": "https://raw.githubusercontent.com/RUCDL/TOM-I/master/",
+                "autoProceed": false,
+                "choiceRequired": true,
+                "showPreviousButton": false,
+                "allowUserPause": false,
+                "canMakeChoiceBeforeAudioFinished": false
+            }]
+    }
+  },
+"sequence": [
+    "farmStoryFrameGroup",
+    "farmControlQuestionsFrameGroup",
+    "farmFBQuestionFrameGroup"
+]
+}
