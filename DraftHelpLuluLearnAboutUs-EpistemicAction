@@ -217,7 +217,7 @@
                         "backgroundColor": "white",
                         "autoProceed": true,
                         "parentTextBlock": {
-                          "text": "Blue boxes are special in a different way! They have a cube OR a sphere inside. (If your child needs a break, press the space bar to pause!)"
+                          "text": "Blue boxes are special in a different way! They have a sphere OR a cube inside. (If your child needs a break, press the space bar to pause!)"
                         },
 
                         "requiredDuration": 0,
@@ -254,7 +254,7 @@
                         "backgroundColor": "white",
                         "autoProceed": true,
                         "parentTextBlock": {
-                          "text": "Blue boxes are special in a different way! They have a cube OR a sphere inside. (If your child needs a break, press the space bar to pause!)"
+                          "text": "Blue boxes are special in a different way! They have a sphere OR a cube inside. (If your child needs a break, press the space bar to pause!)"
                         },
 
                         "requiredDuration": 0,
@@ -368,7 +368,7 @@
                           "images": [
                               {
                                   "id": "intro7",
-                                  "src": "trial_view_3.png",
+                                  "src": "trial-view-3.png",
                                   "position": "fill"
                               }
                           ],
@@ -449,7 +449,7 @@
                           "audio": "whichbox",
                           "images": [
                               {
-                                  "id": "stim",
+                                  "id": "stim1",
                                   "src": "AA-test-n.gif",
                                   "position": "fill",
                                   "nonChoiceOption": true
@@ -485,8 +485,220 @@
                           "audio": "whichbox",
                           "images": [
                               {
-                                  "id": "stim",
+                                  "id": "stim2",
                                   "src": "AA-test-s.gif",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          },
+                          "correctChoiceRequired": true
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "ILS-ns"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "If your child needs a break, press the space bar to pause!"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                          "audio": "whichbox",
+                          "images": [
+                              {
+                                  "id": "stim1",
+                                  "src": "ILS-test-n.gif",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          },
+                          "correctChoiceRequired": true
+                      },
+                      {
+                          "audio": "whichbox",
+                          "images": [
+                              {
+                                  "id": "stim2",
+                                  "src": "ILS-test-s.gif",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          },
+                          "correctChoiceRequired": true
+                      },
+                      {
+                        "kind": "exp-lookit-video",
+
+                        "video": {
+                          "position": "fill",
+                          "loop": false,
+                          "source": "BM-sn"
+                        },
+                        "backgroundColor": "white",
+                        "autoProceed": true,
+                        "parentTextBlock": {
+                          "text": "If your child needs a break, press the space bar to pause!"
+                        },
+
+                        "requiredDuration": 0,
+                        "requireAudioCount": 0,
+                        "requireVideoCount": 1,
+                        "doRecording": true,
+
+                        "frameOffsetAfterPause": 0,
+                        "pauseAudio": "pause",
+                        "unpauseAudio": "return_after_pause",
+                        "pauseVideo": "attentiongrabber",
+
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                          "ogg",
+                          "mp3"
+                        ],
+                        "videoTypes": [
+                          "webm",
+                          "mp4"
+                        ]
+                      },
+                      {
+                          "audio": "whichbox",
+                          "images": [
+                              {
+                                  "id": "stim1",
+                                  "src": "BM-test-n.gif",
+                                  "position": "fill",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "Top-b.png",
+                                  "top": "40",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "Bottom-r.png",
+                                  "top": "60",
+                                  "left": "45",
+                                  "width": "10",
+                                  "correct": true
+                              }
+                          ],
+                          "parentTextBlock": {
+                              "css": {
+                                  "font-size": "13pt",
+                                  "padding": "0.5em"
+                              },
+                              "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "title": "For Parents"
+                          },
+                          "correctChoiceRequired": true
+                      },
+                      {
+                          "audio": "whichbox",
+                          "images": [
+                              {
+                                  "id": "stim2",
+                                  "src": "BM-test-s.gif",
                                   "position": "fill",
                                   "nonChoiceOption": true
                               },
