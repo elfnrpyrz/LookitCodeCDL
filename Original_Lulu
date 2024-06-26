@@ -1,0 +1,3797 @@
+{
+    "frames": {
+        "cbbFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/food-morality/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "kind": "exp-lookit-survey",
+                            "formSchema": {
+                                "schema": {
+                                    "type": "object",
+                                    "title": "For parents:",
+                                    "properties": {
+                                        "guess": {
+                                            "type": "string",
+                                            "title": "Please enter your child's height in inches below (e.g: 38 inches)",
+                                            "required": true
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "fields": {
+                                        "guess": {
+                                            "placeholder": "..."
+                                        }
+                                    }
+                                }
+                            },
+                            "nextButtonText": "NEXT"
+                        },
+                        {
+                            "kind": "exp-lookit-survey",
+                            "formSchema": {
+                                "schema": {
+                                    "type": "object",
+                                    "title": "For parents:",
+                                    "properties": {
+                                        "guess": {
+                                            "type": "string",
+                                            "title": "Please enter your child's weight in pounds below",
+                                            "required": true
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "fields": {
+                                        "guess": {
+                                            "placeholder": "..."
+                                        }
+                                    }
+                                }
+                            },
+                            "nextButtonText": "NEXT"
+                        },
+                        {
+                            "kind": "exp-lookit-survey",
+                            "formSchema": {
+                                "schema": {
+                                    "type": "object",
+                                    "title": "For parents:",
+                                    "properties": {
+                                        "guess": {
+                                            "type": "string",
+                                            "title": "If your child just had a meal or snack, please enter what they ate (ex: cookies)",
+                                            "required": true
+                                        }
+                                    }
+                                },
+                                "options": {
+                                    "fields": {
+                                        "guess": {
+                                            "placeholder": "..."
+                                        }
+                                    }
+                                }
+                            },
+                            "nextButtonText": "NEXT"
+                        },
+                        {
+                            "audio": "intro_1",
+                            "images": [
+                                {
+                                    "id": "intro1",
+                                    "src": "intro_1.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Now we are all ready for the game! Today we are playing a number game with our friend, an alien from another planet."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "intro2",
+                            "images": [
+                                {
+                                    "id": "intro2",
+                                    "src": "intro_2.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend does not know much about Earth. They would like to join us for snack time and learn about what we’re eating."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "aliensnack",
+                            "images": [
+                                {
+                                    "id": "cc",
+                                    "src": "cbb_intro.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Look at these colored dots, these are the alien's snacks."
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": true
+                        },
+                        {
+                            "audio": "intro_5",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "intro5.gif"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "intro_6",
+                            "images": [
+                                {
+                                    "id": "intro_6",
+                                    "src": "alien_3.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you pick the plate with more food items correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "intro_7",
+                            "images": [
+                                {
+                                    "id": "intro6",
+                                    "src": "alien_7.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Sometimes you might find it easy, other times you might find it tricky. When it is tricky, it is okay to guess!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "will_collect2",
+                            "images": [
+                                {
+                                    "id": "will_collect2",
+                                    "src": "alien_9.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_p1.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_p1.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "leftp1",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "practice_wrong"
+                                },
+                                {
+                                    "id": "rightp1",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "practice_right"
+                                }
+                            ],
+                            "correctChoiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_p2.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_p2.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "leftp1",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "practice_right"
+                                },
+                                {
+                                    "id": "rightp1",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "practice_wrong"
+                                }
+                            ],
+                            "correctChoiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_1.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_1.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left1",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right1",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_2.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_2.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left2",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right2",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_3.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_3.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left3",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right3",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_4.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_4.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left4",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right4",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_5.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_5.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left5",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right5",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_6.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_6.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left6",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right6",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_7.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_7.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left7",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right7",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_8.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_8.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left8",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right8",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_9.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_9.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left9",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right9",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_10.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_10.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left10",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right10",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "alien_13",
+                            "images": [
+                                {
+                                    "id": "collect",
+                                    "src": "alien_13.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Look at how many stars you got so far! Great job! Let's try and get some more by continuing to help our alien friend"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_11.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_11.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left11",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right11",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_12.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_12.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left12",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right12",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_13.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_13.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left13",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right13",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_14.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_14.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left14",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right14",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_15.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_15.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left15",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right15",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_16.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_16.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left16",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right16",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_17.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_17.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left17",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right17",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_18.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_18.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left18",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right18",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_19.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_19.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left19",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right19",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cbb_left_20.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cbb_right_20.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left20",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right20",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "almost_done2",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "alien_ok.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Yay! Thank you for playing that game with me! You did a great job. I have a few more questions to ask you."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "alien_snack",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "alien_snack.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "This is the alien's snack (Please press the next button)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "alien_taste",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "alien_snack.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "What do you think it tastes like? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "alien_snack2",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "alien_snack2.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "This is the alien's other snack (Please press the next button)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "alien_taste",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "alien_snack2.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "What do you think it tastes like? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/RUCALC/food-morality/master/",
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        5,
+                                        13
+                                    ],
+                                    "imageId": "cb_left_p1"
+                                },
+                                {
+                                    "range": [
+                                        5,
+                                        13
+                                    ],
+                                    "imageId": "cb_right_p1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "cbFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/food-morality/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "cb2",
+                            "images": [
+                                {
+                                    "id": "cc",
+                                    "src": "cb_intro.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Next we’re eating cupcakes and broccoli. Your job is to help our alien friend learn more about the foods we eat here on Earth."
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": true
+
+                        },
+                        {
+                            "audio": "intro_4",
+                            "images": [
+                                {
+                                    "id": "intro4",
+                                    "src": "plate.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "First, I’m going to show you our friend’s snack plate. Your job is to tell me what is on the plate!"
+                                ]
+                            },
+                            "choiceRequired": false
+
+                        },
+                        {
+                            "audio": "what_plate",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_broccoli.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "What’s on this plate? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "right_broccoli",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_broccoli2.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "That's right! It's broccoli (Please press the next button)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "broccoli_taste",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_broccoli.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "What does broccoli taste like? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "broccoli_taste2",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_broccoli2.gif",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "That's right! Broccoli is a vegetable that tastes light and crunchy! (Please press the next button)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "what_plate",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_cupcake.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "What’s on this plate? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "right_cupcake",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_cupcake2.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "That's right! It's a cupcake! (Please press the next button)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "cupcake_taste",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_cupcake.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "What does a cupcake taste like? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "cupcake_taste2",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "intro_cupcake2.gif",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "That’s right! A cupcake is a dessert that tastes creamy and sweet! (Please press the next button)"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "audio": "intro_8",
+                            "images": [
+                                {
+                                    "id": "cc",
+                                    "src": "cb_intro.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Now let's help our alien friend figure out which plate has more food items."
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": true
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_1.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_1.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left1",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right1",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_2.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_2.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left2",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right2",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_3.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_3.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left3",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right3",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_4.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_4.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left4",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right4",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_5.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_5.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left5",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right5",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_6.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_6.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left6",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right6",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_7.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_7.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left7",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right7",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_8.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_8.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left8",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right8",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_9.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_9.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left9",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right9",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_10.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_10.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left10",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right10",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "alien_13",
+                            "images": [
+                                {
+                                    "id": "collect",
+                                    "src": "alien_13.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Look at how many stars you got so far! Great job! Let's try and get some more by continuing to help our alien friend"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_11.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_11.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left11",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right11",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_12.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_12.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left12",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right12",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_13.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_13.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left13",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right13",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_14.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_14.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left14",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right14",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_15.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_15.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left15",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right15",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_16.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_16.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left16",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right16",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_17.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_17.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left17",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right17",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_18.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_18.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left18",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right18",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_19.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_19.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left19",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right19",
+                                    "src": "right.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "more",
+                            "images": [
+                                {
+                                    "id": "left",
+                                    "src": "cb_left_20.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "cb_right_20.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "choiceRequired": false,
+                            "autoProceed": true,
+                            "durationSeconds": 2,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "images": [
+                                {
+                                    "id": "left20",
+                                    "src": "left.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50,
+                                    "correct": true,
+                                    "feedbackAudio": "guess"
+                                },
+                                {
+                                    "id": "right20",
+                                    "src": "right.png",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50,
+                                    "correct": false,
+                                    "feedbackAudio": "guess"
+                                }
+                            ],
+                            "choiceRequired": true,
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "12pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! The plates appear very briefly. Please only click based on your child's first answer. After each click, move your cursor here in this box.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/RUCALC/food-morality/master/",
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        5,
+                                        13
+                                    ],
+                                    "imageId": "cb_left_p1"
+                                },
+                                {
+                                    "range": [
+                                        5,
+                                        13
+                                    ],
+                                    "imageId": "cb_right_p1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "finalFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/food-morality/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "almost_done",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "alien_ok.jpg",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Yay! Thank you for playing that game with me! You did a great job. I have a few more questions to ask you, and then we’ll be all done."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "like_broccoli",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "intro_broccoli.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "yes.png",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "no.png",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Do you like broccoli? (Please click yes or no)"
+                                ]
+                            },
+                            "choiceRequired": true
+                        },
+                        {
+                            "audio": "like_cupcakes",
+                            "images": [
+                                {
+                                    "id": "stim",
+                                    "src": "intro_cupcake.jpg",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "left",
+                                    "src": "yes.png",
+                                    "top": "65",
+                                    "left": "31",
+                                    "width": "8",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "right",
+                                    "src": "no.png",
+                                    "top": "66",
+                                    "left": "62",
+                                    "width": "8",
+                                    "correct": false
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Do you like cupcakes? (Please click yes or no)"
+                                ]
+                            },
+                            "choiceRequired": true
+                        },
+                        {
+                            "audio": "taste_better",
+                            "images": [
+                                {
+                                    "id": "leftp1",
+                                    "src": "broccoli_plate.jpg",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "rightp1",
+                                    "src": "cupcake_plate.jpg",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Which one tastes better? (Please press the next button once your child finishes answering)"
+                                ]
+                            },
+                            "choiceRequired": true
+                        },
+                        {
+                            "audio": "broccoli_cupcakes",
+                            "images": [
+                                {
+                                    "id": "leftp1",
+                                    "src": "broccoli_plate.png",
+                                    "top": 5,
+                                    "left": 0,
+                                    "width": 50
+                                },
+                                {
+                                    "id": "rightp1",
+                                    "src": "cupcake_plate.png",
+                                    "top": 5,
+                                    "left": 50,
+                                    "width": 50
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "What do you like more, broccoli or cupcakes? (Please press the next button once your child finishes answering)",
+                                "title": "For Parents"
+                    }
+                },
+                {
+                    "audio": "alldone",
+                    "images": [
+                        {
+                            "id": "intro1",
+                            "src": "alldone.png",
+                            "position": "fill"
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parentTextBlock": {
+                        "text": [
+                            "Yay! Great job! Look at all the stars you got! Thank you for helping our friends. You are all done!"
+                        ]
+                    },
+                    "choiceRequired": false
+                }
+                    ],
+                    "baseDir": "https://raw.githubusercontent.com/RUCALC/food-morality/master/",
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        10,
+                                        13
+                                    ],
+                                    "imageId": "cb_left_p1"
+                                },
+                                {
+                                    "range": [
+                                        10,
+                                        13
+                                    ],
+                                    "imageId": "cb_right_p1"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble or would like us to walk you through setup, please email child.research@psych.rutgers.edu."
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Jenny Wang",
+            "institution": "Rutgers University - New Brunswick",
+            "PIContact": "child.research@psych.rutgers.edu",
+            "purpose": "This study is part of a larger research program aiming to understand how infants and children develop their understanding of objects and quantities.",
+            "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world.",
+            "voluntary_participation": "",
+            "risk_statement": "The risks associated with participation in this study are no greater than those encountered in daily life. ",
+            "payment": "Parents often feel that they benefit from this experience because learning more about child development is interesting and enjoyable. Children often find our studies fun! This study may benefit society if the results lead to a better understanding of children’s behavior.",
+            "include_databrary": true,
+            "gdpr": false,
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Rutgers IRB Director at: Arts and Sciences IRB, 335 George St., Liberty Plaza Ste. 3200, New Brunswick, NJ 08901 (732) 235-2866 or the Rutgers Human Subjects Protection Program at (973) 972-1149, email us at humansubjects@ored.rutgers.edu."
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you for participating!",
+                "blocks": [
+                    {
+                        "title": "",
+                        "text": "This research wouldn't be possible without awesome parents like you."
+                    },
+                    {
+                        "title": "Some Background Information:",
+                        "text": "As humans, we are able to make split second numerical discriminations ever since we are born. <a href=https://mindmatters.ai/2019/11/babies-have-a-number-sense-before-they-can-count/’>This article</a> nicely summarized how babies can tell numbers apart before they can even count. \n\n However, we are particularly curious to see whether other factors can affect our numerical discrimination. \n\n Previously, research has found that things like our emotions can affect our numerical judgments. \n\n In the current study we ask whether children’s judgments of which of two plates has more food items will be affected by the kind of food they see. \n\n This study will help us better understand how children make numerical judgments."
+                    },
+                    {
+                        "title": "Compensation:",
+                        "text": "This research would not be possible without awesome parents like you. Thank you again for your participation! We will provide a $5 USD Amazon gift card for eligible participants. We will send you 1 gift card within 1 week of your first eligible participation. To be eligible for compensation we ask that you 1) provide a valid consent video (we will show you how!), 2) your child must be in the age range specified above and, 3) your child must be present during the recorded videos. Your child does not need to finish the entire study in order to be eligible for compensation. \n\nPlease tell your friends about your experience. We are always looking for new little scientists to join our community!"
+                    },
+                    {
+                        "title": "Questions or Concerns:",
+                        "text": "Please do not hesitate to contact Rahma Mbarki at child.research@psych.rutgers.edu."
+                    }
+                ]
+            }
+        },
+        "instruction-survey-multiple": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                    "firstbutton": {
+                            "type": "string",
+                            "title": "Has your child had a snack or meal in the past hour?",
+                            "enum": [
+                                "Yes.",
+                                "No."
+                            ]
+                        },
+                        "parentbutton": {
+                            "type": "string",
+                            "title": "Where should you be during the study?",
+                            "enum": [
+                                "In the kitchen making food.",
+                                "Sitting next to your child and help them understand the instructions.",
+                                "Going to get some cookies from the store."
+                            ]
+                        },
+                        "bfeedback": {
+                            "type": "text",
+                            "title": "Even though your child may be able to read and click buttons well, it is helpful for you to be there to make sure they follow the instructions throughout the study."
+                        },
+                        "parentresponse": {
+                            "type": "string",
+                            "title": "Which of these can you say after your child answers a question?",
+                            "enum": [
+                                "Okay!",
+                                "Hmm, I don't think so.",
+                                "Are you sure?"
+                            ]
+                        },
+                        "qfeedback": {
+                            "type": "text",
+                            "title": "We're interested in how children think about these questions, which might be different from how adults think about them. It's important not to 'give away' any of your own thoughts or answers."
+                        },
+                        "parentencourage": {
+                            "type": "string",
+                            "title": "What should you do if your child is distracted during a question?",
+                            "enum": [
+                                "Quit the study.",
+                                "Encourage them to keep watching and listening.",
+                                "Give them a hint."
+                            ]
+                        },
+                        "encfeedback": {
+                            "type": "text",
+                            "title": "It's fine if your child gets distracted at some points during the study! Sometimes a replay option will be available if they didn't hear what was said."
+                        },
+                        "parentstopearly": {
+                            "type": "string",
+                            "title": "Is it ok to stop the study early?",
+                            "enum": [
+                                "No, I must complete the full study.",
+                                "Yes, I can press F1 or ctrl-X or close the tab at any time."
+                            ]
+                        },
+                        "earlyfeedback": {
+                            "type": "text",
+                            "title": "It's great if you can complete the study, but if your child is upset or either of you do not want to continue, you do not need to complete the study."
+                        }
+                    },
+                    "dependencies": {
+                        "bfeedback": [
+                            "parentbutton"
+                        ],
+                        "qfeedback": [
+                            "parentresponse"
+                        ],
+                        "encfeedback": [
+                            "parentencourage"
+                        ],
+                        "earlyfeedback": [
+                            "parentstopearly"
+                        ]
+                    }
+                },
+                "options": {
+                    "fields": {
+                            "firstbutton": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 1
+
+                        },
+                        "parentbutton": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 3
+                        },
+                        "bfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentbutton": [
+                                    "In the kitchen making food.",
+                                    "Going to get some cookies from the store."
+                                ]
+                            },
+                            "order": 4
+                        },
+                        "parentresponse": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 5
+                        },
+                        "qfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentresponse": [
+                                    "Hmm, I don't think so.",
+                                    "Are you sure?"
+                                ]
+                            },
+                            "order": 6
+                        },
+                        "parentencourage": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 7
+                        },
+                        "encfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentencourage": [
+                                    "Quit the study.",
+                                    "Give them a hint."
+                                ]
+                            },
+                            "order": 8
+                        },
+                        "parentstopearly": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 9
+                        },
+                        "earlyfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentstopearly": [
+                                    "No, I must complete the full study."
+                                ]
+                            },
+                            "order": 10
+                        }
+                    }
+                }
+            }
+        },
+        "roadmap-1": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Below is the image you'll be seeing to show you where you're at and what the next step is throughout the study. To start, you will go through the instructions then complete a quick quiz to ensure your understanding of them.",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_1.jpg"
+                    },
+                    "title": "Road Map"
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "final-instructions1": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "text": "The study will take 15-20 minutes to complete. After that, you will be able to select a level of privacy for your data. To ensure that everything goes smoothly, please close other browser tabs and windows now."
+                },
+                {
+                    "title": "Study overview",
+                    "listblocks": [
+                        {
+                            "text": "Your child is going to answer some questions. Some of the questions will ask them to pick between two amounts, and others will ask them to guess what someone else will choose."
+                        },
+                        {
+                            "text": "For each question, you and your child will see some pictures and hear the question, then your child should answer - they can do this by telling you their choice and having you click for them."
+                        },
+                        {
+                            "text": "You can click through to the next question after your child has answered."
+                        }
+                    ]
+                }
+            ],
+            "mustPlay": false,
+            "showWebcam": false,
+            "nextButtonText": "Next"
+        },
+        "final-instructions2": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Remember: There are no wrong answers! We're interested in how children think about these questions, which may be different from how adults think about them. We'll need your help!",
+                    "listblocks": [
+                        {
+                            "text": "It's important not to 'give away' any of your own thoughts about the answers-- you can say 'Okay!', but not 'That's right!' or 'Hmm, are you sure?'"
+                        },
+                        {
+                            "text": "It's natural to want to interact about the questions, but please hold discussion until the end of the study."
+                        },
+                        {
+                            "text": "If your child gets distracted for a bit, that's fine - please just encourage them to keep watching and listening."
+                        },
+                        {
+                            "text": "If your child doesn't answer a question right away, you can encourage them to answer - just don't tell them what you think the answer is. You can also replay the question with the 'Replay' button."
+                        }
+                    ]
+                },
+                {
+                    "text": "Before starting, make sure your audio is working.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/lookit/template-study-stim/master/bothright/mp3/ready.mp3",
+                                "type": "audio/mp3"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "mustPlay": false,
+            "nextButtonText": "Next"
+        },
+        "roadmap-2": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Great job! Now it's time to get into position.",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_2.jpg"
+                    },
+                    "title": "Road Map"
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "positioning": {
+            "kind": "exp-video-config-quality",
+            "title": "Positioning",
+            "introText": "It's time to get your child & check yourself out!",
+            "showRecordMenu": false,
+            "requireTestVideo": false,
+            "completedItemText": "Got it!",
+            "instructionBlocks": [
+                {
+                    "text": "You and your child can sit in any position.",
+                    "title": "Get comfortable"
+                },
+                {
+                    "text": "Go ahead and get settled and use the webcam preview to make sure your child’s whole face and torso are in view.",
+                    "title": "Take a few moments"
+                },
+                {
+                    "text": "Press the 'Next' button down below if you and your child are in position and ready to go.",
+                    "title": "When you're ready"
+                }
+            ],
+            "nextButtonText": "My child and I are in position and ready to start!",
+            "showPreviousButton": true,
+            "requireItemConfirmation": true,
+            "recordingInstructionText": ""
+        },
+        "roadmap-3": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "We are all set for the game! Let's help Lulu together!",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_3.jpg"
+                    },
+                    "title": ""
+                }
+            ],
+            "showPreviousButton": true
+        }
+    },
+    "sequence": [
+        "video-config",
+        "video-consent",
+        "roadmap-1",
+        "final-instructions1",
+        "final-instructions2",
+        "instruction-survey-multiple",
+        "roadmap-2",
+        "positioning",
+        "roadmap-3",
+        "cbbFrameGroup",
+        "cbFrameGroup",
+        "finalFrameGroup",
+        "exit-survey"
+    ]
+}

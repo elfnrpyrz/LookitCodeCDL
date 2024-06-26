@@ -1,0 +1,1749 @@
+{
+    "frames": {
+        "practiceFrameGroup": {
+          "sampler": "permute",
+          "kind": "choice",
+          "frameOptions": [
+              {
+                  "kind": "choice",
+                  "sampler": "random-parameter-set",
+                  "commonFrameProperties": {
+                      "kind": "exp-lookit-images-audio",
+                      "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                      "audioTypes": [
+                          "mp3"
+                      ],
+                      "autoProceed": true,
+                      "doRecording": false,
+                      "choiceRequired": true,
+                      "showPreviousButton": false,
+                      "allowUserPause": false,
+                      "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "practice_1",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "maximizeDisplay": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "practice_2",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "practice_3",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "audio": {
+                                "loop": false,
+                                "source": "instruction_red1"
+                            },
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "redbox-demo1"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The red boxes are special. They have 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "audio": {
+                                "loop": false,
+                                "source": "instruction_red2"
+                            },
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "redbox-demo2"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The red boxes are special. They have 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "audio": {
+                                "loop": false,
+                                "source": "instruction_blue1"
+                            },
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "bluebox-demo1"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Blue boxes are special in a different way! They have a ball OR a block inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "audio": {
+                                "loop": false,
+                                "source": "instruction_blue2"
+                            },
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "bluebox-demo2"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Blue boxes are special in a different way! They have a ball OR a block inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_4",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "In this part, you will see what is hidden inside the two boxes. Your job is to choose the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_5",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Let's give it a try!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "practice_1"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The box on the left has a ball inside. The box on the right has 10 coins inside."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_8",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "practice_1test.gif",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "practice_1test.gif",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "feedbackAudio": "feed_corr_1",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "feedbackAudio": "feed_incorr_1",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Where are the red and the blue boxes? To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_6",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "That was fun! Let's do it again!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "practice_2"
+                            },
+                            "backgroundColor": "white",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The box on the left has 5 coins inside. The box on the right has a block inside."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_8",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "practice_2test.gif",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "practice_2test.gif",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "feedbackAudio": "feed_incorr_2",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "feedbackAudio": "feed_corr_2",
+                                    "correct": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Where are the red and the blue boxes? To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_9",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox3.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Great practicing! Now you know how the buttons work!",
+                                "title": "For Parents"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "testIntroFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "instruction_1",
+                            "images": [
+                                {
+                                    "id": "intro1",
+                                    "src": "alien_1.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Let’s play the real guessing game with our friend, an alien from another planet."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_2",
+                            "images": [
+                                {
+                                    "id": "intro2",
+                                    "src": "alien_8.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend does not know much about Earth and how things work here, like what people do with different objects in boxes!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_3a",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "trial-view-1.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Your job today is to help our alien friend figure out which color the boxes are."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_4",
+                            "images": [
+                                {
+                                    "id": "intro4",
+                                    "src": "AA-ns-demo.gif",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Here’s someone playing with two boxes! They are trying to guess what is inside each box."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_5",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "trial-view-2.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "One of these boxes is red, the other box is blue. You will help our alien friend figure out where the red and the blue boxes are!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "practice_8",
+                            "images": [
+                                {
+                                    "id": "instruction-practice",
+                                    "src": "AA-ns-demo.gif",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_6",
+                            "images": [
+                                {
+                                    "id": "intro6",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you pick the button correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_7",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_6.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Sometimes you might find it easy, other times you might find it tricky. When it is tricky, it is okay to guess!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_8",
+                            "images": [
+                                {
+                                    "id": "intro8",
+                                    "src": "trial-view-3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_9",
+                            "images": [
+                                {
+                                    "id": "intro9",
+                                    "src": "alien_2.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Let's play the game!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "left"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "right"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "testFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "audio": "instruction_practice1",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial1"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest1",
+                                    "src": "trial1_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial2"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest2",
+                                    "src": "trial2_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial3"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest3",
+                                    "src": "trial3_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial4"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest4",
+                                    "src": "trial4_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial5"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest5",
+                                    "src": "trial5_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial6"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest6",
+                                    "src": "trial6_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "greatjob.mp3",
+                            "images": [
+                                {
+                                    "id": "mid-exp-check",
+                                    "src": "alien_7.gif",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "maximizeDisplay": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Look at how many stars you got so far! Great job! Let's try and get some more by continuing to help our alien friend."
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial1"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest1",
+                                    "src": "trial1_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial2"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest2",
+                                    "src": "trial2_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial3"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest3",
+                                    "src": "trial3_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial4"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest4",
+                                    "src": "trial4_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial5"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest5",
+                                    "src": "trial5_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "trial6"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons."
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "trialtest6",
+                                    "src": "trial6_test",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "65",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "20",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. To indicate your answer, please click on the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "trial1": "GB-SN.mp4",
+                            "trial1_test": "testGB-SN.gif",
+                            "trial2": "YL-SN.mp4",
+                            "trial2_test": "testYL-SN.gif",
+                            "trial3": "ZZ-NS.mp4",
+                            "trial3_test": "testZZ-NS.gif",
+                            "trial4": "JE-SN.mp4",
+                            "trial4_test": "testJE-SN.gif",
+                            "trial5": "AK-NS.mp4",
+                            "trial5_test": "testAK-NS.gif",
+                            "trial6": "FZ-NS.mp4",
+                            "trial6_test": "testFZ-NS.gif"
+                        }
+                    ]
+                }
+            ]
+        },
+        "study-alldone": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "alldone",
+            "images": [
+                {
+                    "id": "intro1",
+                    "src": "alien_10.png",
+                    "position": "fill"
+                }
+            ],
+            "parentTextBlock": {
+                "text": [
+                    "Yay! Great job! Look at all the stars you got! Thank you for helping our friends. You are all done!"
+                ]
+            },
+            "choiceRequired": false,
+            "baseDir": "https://raw.githubusercontent.com/RUCALC/beliefans/master/",
+            "showPreviousButton": false,
+            "allowUserPause": false,
+            "waitForRecordingMessageColor": "black"
+        }
+    },
+    "sequence": [
+        "practiceFrameGroup",
+        "testIntroFrameGroup",
+        "testFrameGroup",
+        "study-alldone"
+    ]
+}
