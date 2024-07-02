@@ -64,10 +64,6 @@
                         },
                         {
                             "kind": "exp-lookit-video",
-                            "audio": {
-                                "loop": false,
-                                "source": "instruction_red12"
-                            },
                             "video": {
                                 "position": "fill",
                                 "loop": false,
@@ -99,10 +95,6 @@
 
                         {
                             "kind": "exp-lookit-video",
-                            "audio": {
-                                "loop": false,
-                                "source": "instruction_blue12"
-                            },
                             "video": {
                                 "position": "fill",
                                 "loop": false,
@@ -593,27 +585,46 @@
                         {
                             "audio": "instruction_3a",
                             "images": [
-                                {
-                                    "id": "intro3",
-                                    "src": "trial-view-1.png",
-                                    "position": "fill"
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
-                                }
+                              {
+                                  "id": "intro3a",
+                                  "src": "trial-view-1.png",
+                                  "top": "20",
+                                  "left":"0",
+                                  "width": "35",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "intro3b",
+                                  "src": "trial-view-2.png",
+                                  "top": "20",
+                                  "left":"65",
+                                  "width": "35",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "intro3c",
+                                  "src": "alien_6.png",
+                                  "top": "65",
+                                  "right":"0",
+                                  "width": "40",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "top-br.jpg",
+                                  "top": "60",
+                                  "left": "35",
+                                  "width": "30",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "bottom-rb.jpg",
+                                  "top": "80",
+                                  "left": "35",
+                                  "width": "30",
+                                  "correct": true
+                              }
                             ],
                             "parentTextBlock": {
                                 "text": [
@@ -643,7 +654,7 @@
                             "images": [
                                 {
                                     "id": "intro5",
-                                    "src": "trial-view-2.png",
+                                    "src": "AA-ns-demo.gif",
                                     "position": "fill"
                                 },
                                 {
@@ -673,38 +684,27 @@
                         {
                             "audio": "practice_8",
                             "images": [
-                                {
-                                    "id": "instruction-practiceL",
-                                    "src": "ball.gif",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "instruction-practiceR",
-                                    "src": "coin10.gif",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "40",
-                                    "width": "20",
-                                    "correct": false
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "40",
-                                    "width": "20",
-                                    "correct": true
-                                }
+                              {
+                                  "id": "intro5",
+                                  "src": "AA-ns-demo.gif",
+                                  "position": "fill"
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "top-br.jpg",
+                                  "top": "60",
+                                  "left": "35",
+                                  "width": "30",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "bottom-rb.jpg",
+                                  "top": "80",
+                                  "left": "35",
+                                  "width": "30",
+                                  "correct": true
+                              }
                             ],
                             "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
@@ -753,11 +753,44 @@
                         {
                             "audio": "instruction_8",
                             "images": [
-                                {
-                                    "id": "intro8",
-                                    "src": "trial-view-3.png",
-                                    "position": "fill"
-                                }
+                              {
+                                  "id": "intro3a",
+                                  "src": "trial-view-1.png",
+                                  "top": "20",
+                                  "left":"0",
+                                  "width": "35",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "intro3b",
+                                  "src": "trial-view-2.png",
+                                  "top": "20",
+                                  "left":"65",
+                                  "width": "35",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "intro3c",
+                                  "src": "alien_4.png",
+                                  "position": "center",
+                                  "nonChoiceOption": true
+                              },
+                              {
+                                  "id": "top",
+                                  "src": "top-br.jpg",
+                                  "top": "60",
+                                  "left": "35",
+                                  "width": "30",
+                                  "correct": false
+                              },
+                              {
+                                  "id": "bottom",
+                                  "src": "bottom-rb.jpg",
+                                  "top": "80",
+                                  "left": "35",
+                                  "width": "30",
+                                  "correct": true
+                              }
                             ],
                             "parentTextBlock": {
                                 "text": [
