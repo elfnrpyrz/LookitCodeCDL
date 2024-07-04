@@ -189,13 +189,13 @@
                                 {
                                     "id": "practicestimL",
                                     "src": "ball.gif",
-                                    "top": "20",
+                                    "top": "5",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
                                 }
                             ],
-                            "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
                             "choiceRequired": false,
                             "parentTextBlock": {
@@ -213,14 +213,13 @@
                                 {
                                     "id": "practicestimR",
                                     "src": "coin10.gif",
-                                    "top": "20",
+                                    "top": "5",
                                     "left": "65",
                                     "width": "35",
-                                    "displayDelayMs": 4000,
-                                    "nonChoiceOption": true
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
                                 }
                             ],
-                            "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
                             "choiceRequired": false,
                             "parentTextBlock": {
@@ -238,7 +237,7 @@
                               {
                                   "id": "practicestimL",
                                   "src": "ball.gif",
-                                  "top": "20",
+                                  "top": "5",
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true
@@ -246,7 +245,7 @@
                               {
                                   "id": "practicestimR",
                                   "src": "coin10.gif",
-                                  "top": "20",
+                                  "top": "5",
                                   "left": "65",
                                   "width": "35",
                                   "nonChoiceOption": true
@@ -268,7 +267,6 @@
                                     "correct": true
                                 }
                             ],
-                            "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
                             "choiceRequired": false,
                             "parentTextBlock": {
@@ -286,7 +284,7 @@
                               {
                                   "id": "practicestimL",
                                   "src": "ball.gif",
-                                  "top": "20",
+                                  "top": "5",
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true
@@ -294,7 +292,7 @@
                               {
                                   "id": "practicestimR",
                                   "src": "coin10.gif",
-                                  "top": "20",
+                                  "top": "5",
                                   "left": "65",
                                   "width": "35",
                                   "nonChoiceOption": true
@@ -358,13 +356,13 @@
                                 {
                                     "id": "practicestimL",
                                     "src": "coin5.gif",
-                                    "top": "20",
+                                    "top": "5",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
                                 }
                             ],
-                            "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
                             "choiceRequired": false,
                             "parentTextBlock": {
@@ -382,14 +380,13 @@
                                 {
                                     "id": "practicestimR",
                                     "src": "block.gif",
-                                    "top": "20",
+                                    "top": "5",
                                     "left": "65",
                                     "width": "35",
-                                    "displayDelayMs": 4000,
-                                    "nonChoiceOption": true
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
                                 }
                             ],
-                            "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
                             "choiceRequired": false,
                             "parentTextBlock": {
@@ -407,7 +404,7 @@
                               {
                                   "id": "practicestimL",
                                   "src": "coin5.gif",
-                                  "top": "20",
+                                  "top": "5",
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true
@@ -415,7 +412,7 @@
                               {
                                   "id": "practicestimR",
                                   "src": "block.gif",
-                                  "top": "20",
+                                  "top": "5",
                                   "left": "65",
                                   "width": "35",
                                   "nonChoiceOption": true
@@ -437,7 +434,6 @@
                                     "correct": true
                                 }
                             ],
-                            "highlights": "HIGHLIGHTS-1",
                             "autoProceed": true,
                             "choiceRequired": false,
                             "parentTextBlock": {
@@ -505,12 +501,6 @@
                                 {
                                     "id": "practicestim",
                                     "src": "twobox3.png",
-                                    "position": "fill",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "practicestim1",
-                                    "src": "alien_2.png",
                                     "position": "fill",
                                     "nonChoiceOption": true
                                 }
@@ -908,7 +898,7 @@
                                   "top": "20",
                                   "left": "0",
                                   "width": "35",
-                                  "displayDelayMs": 3000,
+                                  "displayDelayMs": 2000,
                                   "nonChoiceOption": true
                               },
                               {
@@ -930,6 +920,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 12,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -969,6 +960,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1016,6 +1008,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1085,7 +1078,7 @@
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true,
-                                  "displayDelayMs": 3000
+                                  "displayDelayMs": 2000
                               },
                               {
                                   "id": "top",
@@ -1106,6 +1099,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 12,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1145,6 +1139,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1192,6 +1187,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1261,7 +1257,7 @@
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true,
-                                  "displayDelayMs": 3000
+                                  "displayDelayMs": 2000
                               },
                               {
                                   "id": "top",
@@ -1282,6 +1278,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 12,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1321,6 +1318,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1368,6 +1366,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1437,7 +1436,7 @@
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true,
-                                  "displayDelayMs": 3000
+                                  "displayDelayMs": 2000
                               },
                               {
                                   "id": "top",
@@ -1458,6 +1457,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 12,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1497,6 +1497,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1544,6 +1545,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1613,7 +1615,7 @@
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true,
-                                  "displayDelayMs": 3000
+                                  "displayDelayMs": 2000
                               },
                               {
                                   "id": "top",
@@ -1634,6 +1636,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 12,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1673,6 +1676,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1720,6 +1724,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1789,7 +1794,7 @@
                                   "left": "0",
                                   "width": "35",
                                   "nonChoiceOption": true,
-                                  "displayDelayMs": 3000
+                                  "displayDelayMs": 2000
                               },
                               {
                                   "id": "top",
@@ -1810,6 +1815,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 12,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1849,6 +1855,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1896,6 +1903,7 @@
                           ],
                           "autoProceed": true,
                           "choiceRequired": false,
+                          "durationSeconds": 10,
                           "parentTextBlock": {
                               "css": {
                                   "font-size": "13pt",
@@ -1985,7 +1993,7 @@
                                     "left": "0",
                                     "width": "35",
                                     "nonChoiceOption": true,
-                                    "displayDelayMs": 3000
+                                    "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
@@ -2006,6 +2014,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 12,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2045,6 +2054,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2092,6 +2102,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2161,7 +2172,7 @@
                                     "left": "0",
                                     "width": "35",
                                     "nonChoiceOption": true,
-                                    "displayDelayMs": 3000
+                                    "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
@@ -2182,6 +2193,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 12,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2221,6 +2233,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2268,6 +2281,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2337,7 +2351,7 @@
                                     "left": "0",
                                     "width": "35",
                                     "nonChoiceOption": true,
-                                    "displayDelayMs": 3000
+                                    "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
@@ -2358,6 +2372,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 12,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2397,6 +2412,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2444,6 +2460,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2513,7 +2530,7 @@
                                     "left": "0",
                                     "width": "35",
                                     "nonChoiceOption": true,
-                                    "displayDelayMs": 3000
+                                    "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
@@ -2534,6 +2551,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 12,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2573,6 +2591,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2620,6 +2639,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2689,7 +2709,7 @@
                                     "left": "0",
                                     "width": "35",
                                     "nonChoiceOption": true,
-                                    "displayDelayMs": 3000
+                                    "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
@@ -2710,6 +2730,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 12,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2749,6 +2770,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2796,6 +2818,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2865,7 +2888,7 @@
                                     "left": "0",
                                     "width": "35",
                                     "nonChoiceOption": true,
-                                    "displayDelayMs": 3000
+                                    "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
@@ -2886,6 +2909,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 12,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2925,6 +2949,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -2972,6 +2997,7 @@
                             ],
                             "autoProceed": true,
                             "choiceRequired": false,
+                            "durationSeconds": 10,
                             "parentTextBlock": {
                                 "css": {
                                     "font-size": "13pt",
@@ -3125,12 +3151,360 @@
             "showPreviousButton": false,
             "allowUserPause": false,
             "waitForRecordingMessageColor": "black"
+        },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble or would like us to walk you through setup, please email child.research@psych.rutgers.edu."
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Jenny Wang",
+            "institution": "Rutgers University - New Brunswick",
+            "PIContact": "child.research@psych.rutgers.edu",
+            "purpose": "This study is part of a larger research program aiming to understand how infants and children develop their understanding of objects and quantities.",
+            "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world.",
+            "voluntary_participation": "",
+            "risk_statement": "The risks associated with participation in this study are no greater than those encountered in daily life. ",
+            "payment": "Parents often feel that they benefit from this experience because learning more about child development is interesting and enjoyable. Children often find our studies fun! This study may benefit society if the results lead to a better understanding of children’s behavior.",
+            "include_databrary": true,
+            "gdpr": false,
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Rutgers IRB Director at: Arts and Sciences IRB, 335 George St., Liberty Plaza Ste. 3200, New Brunswick, NJ 08901 (732) 235-2866 or the Rutgers Human Subjects Protection Program at (973) 972-1149, email us at humansubjects@ored.rutgers.edu."
+        },
+        "roadmap-1": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Below is the image you'll be seeing to show you where you're at and what the next step is throughout the study. To start, you will go through the instructions then complete a quick quiz to ensure your understanding of them.",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_1.jpg"
+                    },
+                    "title": "Road Map"
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "instructions1": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "text": "The study will take 15 minutes to complete. After that, you will be able to select a level of privacy for your data. To ensure that everything goes smoothly, please close other browser tabs and windows now."
+                },
+                {
+                    "title": "Study overview",
+                    "listblocks": [
+                        {
+                            "text": "Your child is going to answer some questions. They will see videos of people shaking boxes. The questions will ask them to guess which kind of boxes are being shaken."
+                        },
+                        {
+                            "text": "For each question, you and your child will see some videos and hear the question, then your child should answer - they can do this by telling you their choice and having you click for them."
+                        },
+                        {
+                            "text": "You can click through to the next question after your child has answered."
+                        }
+                    ]
+                }
+            ],
+            "mustPlay": false,
+            "showWebcam": false,
+            "nextButtonText": "Next"
+        },
+        "instructions2": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Remember: There are no wrong answers! We're interested in how children think about these questions, which may be different from how adults think about them. We'll need your help!",
+                    "listblocks": [
+                        {
+                            "text": "It's important not to 'give away' any of your own thoughts about the answers-- you can say 'Okay!', but not 'That's right!' or 'Hmm, are you sure?'"
+                        },
+                        {
+                            "text": "It's natural to want to interact about the questions, but please hold discussion until the end of the study."
+                        },
+                        {
+                            "text": "If your child gets distracted for a bit, that's fine - please just encourage them to keep watching and listening."
+                        },
+                        {
+                            "text": "If your child doesn't answer a question right away, you can encourage them to answer - just don't tell them what you think the answer is. You can also replay the question with the 'Replay' button."
+                        }
+                    ]
+                },
+                {
+                    "text": "Before starting, make sure your audio is working.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/lookit/template-study-stim/master/bothright/mp3/ready.mp3",
+                                "type": "audio/mp3"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "mustPlay": false,
+            "nextButtonText": "Next"
+        },
+        "instruction-survey-multiple": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "parentbutton": {
+                            "type": "string",
+                            "title": "Where should you be during the study?",
+                            "enum": [
+                                "In the kitchen making food.",
+                                "Sitting next to your child and help them understand the instructions.",
+                                "Going to get some cookies from the store."
+                            ]
+                        },
+                        "bfeedback": {
+                            "type": "text",
+                            "title": "Even though your child may be able to read and click buttons well, it is helpful for you to be there to make sure they follow the instructions throughout the study."
+                        },
+                        "parentresponse": {
+                            "type": "string",
+                            "title": "Which of these can you say after your child answers a question?",
+                            "enum": [
+                                "Okay!",
+                                "Hmm, I don't think so.",
+                                "Are you sure?"
+                            ]
+                        },
+                        "qfeedback": {
+                            "type": "text",
+                            "title": "We're interested in how children think about these questions, which might be different from how adults think about them. It's important not to 'give away' any of your own thoughts or answers."
+                        },
+                        "parentencourage": {
+                            "type": "string",
+                            "title": "What should you do if your child is distracted during a question?",
+                            "enum": [
+                                "Quit the study.",
+                                "Encourage them to keep watching and listening.",
+                                "Give them a hint."
+                            ]
+                        },
+                        "encfeedback": {
+                            "type": "text",
+                            "title": "It's fine if your child gets distracted at some points during the study! Sometimes a replay option will be available if they didn't hear what was said."
+                        },
+                        "parentstopearly": {
+                            "type": "string",
+                            "title": "Is it ok to stop the study early?",
+                            "enum": [
+                                "No, I must complete the full study.",
+                                "Yes, I can press F1 or ctrl-X or close the tab at any time."
+                            ]
+                        },
+                        "earlyfeedback": {
+                            "type": "text",
+                            "title": "It's great if you can complete the study, but if your child is upset or either of you do not want to continue, you do not need to complete the study."
+                        }
+                    },
+                    "dependencies": {
+                        "bfeedback": [
+                            "parentbutton"
+                        ],
+                        "qfeedback": [
+                            "parentresponse"
+                        ],
+                        "encfeedback": [
+                            "parentencourage"
+                        ],
+                        "earlyfeedback": [
+                            "parentstopearly"
+                        ]
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "parentbutton": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 3
+                        },
+                        "bfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentbutton": [
+                                    "In the kitchen making food.",
+                                    "Going to get some cookies from the store."
+                                ]
+                            },
+                            "order": 4
+                        },
+                        "parentresponse": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 5
+                        },
+                        "qfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentresponse": [
+                                    "Hmm, I don't think so.",
+                                    "Are you sure?"
+                                ]
+                            },
+                            "order": 6
+                        },
+                        "parentencourage": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 7
+                        },
+                        "encfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentencourage": [
+                                    "Quit the study.",
+                                    "Give them a hint."
+                                ]
+                            },
+                            "order": 8
+                        },
+                        "parentstopearly": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 9
+                        },
+                        "earlyfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentstopearly": [
+                                    "No, I must complete the full study."
+                                ]
+                            },
+                            "order": 10
+                        }
+                    }
+                }
+            }
+        },
+        "roadmap-2": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Great job! Now it's time to get into position.",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_2.jpg"
+                    },
+                    "title": "Road Map"
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "positioning": {
+            "kind": "exp-video-config-quality",
+            "title": "Positioning",
+            "introText": "It's time to get your child & check yourself out!",
+            "showRecordMenu": false,
+            "requireTestVideo": false,
+            "completedItemText": "Got it!",
+            "instructionBlocks": [
+                {
+                    "text": "You and your child can sit in any position.",
+                    "title": "Get comfortable"
+                },
+                {
+                    "text": "Go ahead and get settled and use the webcam preview to make sure your child’s whole face and torso are in view.",
+                    "title": "Take a few moments"
+                },
+                {
+                    "text": "Press the 'Next' button down below if you and your child are in position and ready to go.",
+                    "title": "When you're ready"
+                }
+            ],
+            "nextButtonText": "My child and I are in position and ready to start!",
+            "showPreviousButton": true,
+            "requireItemConfirmation": true,
+            "recordingInstructionText": ""
+        },
+        "roadmap-3": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "We are all set for the game! Let's help Lulu together!",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_3.jpg"
+                    },
+                    "title": ""
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you for participating!",
+                "blocks": [
+                    {
+                        "title": "",
+                        "text": "This research wouldn't be possible without awesome parents like you."
+                    },
+                    {
+                        "title": "Some Background Information:",
+                        "text": "As humans, we are able to make split second numerical discriminations ever since we are born. <a href=https://mindmatters.ai/2019/11/babies-have-a-number-sense-before-they-can-count/’>This article</a> nicely summarized how babies can tell numbers apart before they can even count. \n\n However, we are particularly curious to see whether other factors can affect our numerical discrimination. \n\n Previously, research has found that things like our emotions can affect our numerical judgments. \n\n In the current study we ask whether children’s judgments of which of two plates has more food items will be affected by the kind of food they see. \n\n This study will help us better understand how children make numerical judgments."
+                    },
+                    {
+                        "title": "Compensation:",
+                        "text": "This research would not be possible without awesome parents like you. Thank you again for your participation! We will provide a $5 USD Amazon gift card for eligible participants. We will send you 1 gift card within 1 week of your first eligible participation. To be eligible for compensation we ask that you 1) provide a valid consent video (we will show you how!), 2) your child must be in the age range specified above and, 3) your child must be present during the recorded videos. Your child does not need to finish the entire study in order to be eligible for compensation. \n\nPlease tell your friends about your experience. We are always looking for new little scientists to join our community!"
+                    },
+                    {
+                        "title": "Questions or Concerns:",
+                        "text": "Please do not hesitate to contact Rahma Mbarki at child.research@psych.rutgers.edu."
+                    }
+                ]
+            }
         }
     },
     "sequence": [
+        "video-config",
+        "video-consent",
+        "roadmap-1",
+        "instructions1",
+        "instructions2",
+        "instruction-survey-multiple",
+        "roadmap-2",
+        "positioning",
+        "roadmap-3",
         "practiceFrameGroup",
         "testIntroFrameGroup",
         "testFrameGroup",
-        "study-alldone"
+        "study-alldone",
+        "exit-survey"
     ]
 }
