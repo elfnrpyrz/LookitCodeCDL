@@ -3505,6 +3505,31 @@
             }
         }
     },
+
+    "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you for participating!",
+                "blocks": [
+                    {
+                        "title": "",
+                        "text": "This research wouldn't be possible without awesome parents like you."
+                    },
+                    {
+                        "title": "Some Background Information:",
+                        "text": "As humans, we are able to make split second numerical discriminations <a href=https://mindmatters.ai/2019/11/babies-have-a-number-sense-before-they-can-count/’> ever since we are born. </a> Moreover, <a href=https://www.nature.com/articles/s41467-021-23431-2'> recent research </a> suggests that children can tell whether a certain quantity pair (e.g., 9 vs 1) is easier or harder to discriminate compared to another pair (e.g., 9 vs. 8).  \n\n In the current study, children watch videos of a person shaking two distinct boxes to figure out whether there are different quantities of objects in the box (5 vs 10 coins); or different shapes (a block or a ball). We are interested in whether children attend to the specific ways the person is physically interacting with the boxes; and they use that information to guess which kind of box someone is shaking. \n\n This study will help us better understand what kind of information children attend to when others are making numerical judgments.”
+                    },
+                    {
+                        "title": "compensation:",
+                        "text": "This research would not be possible without awesome parents like you. Thank you again for your participation! We will provide a $5 USD Amazon gift card for eligible participants. We will send you 1 gift card within 1 week of your first eligible participation. To be eligible for compensation we ask that you 1) provide a valid consent video (we will show you how!), 2) your child must be in the age range specified above and, 3) your child must be present during the recorded videos. Your child does not need to finish the entire study in order to be eligible for compensation. \n\nPlease tell your friends about your experience. We are always looking for new little scientists to join our community!"
+                    },
+                    {
+                        "title": "Questions or Concerns:",
+                        "text": "Please do not hesitate to contact Elif Poyraz at child.research@psych.rutgers.edu."
+                    }
+                ]
+            }
+        }
     "sequence": [
         "video-config",
         "video-consent",
