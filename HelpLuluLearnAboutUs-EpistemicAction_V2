@@ -619,7 +619,7 @@
                                     "id": "intro3",
                                     "src": "AA-ns-demo.gif",
                                     "position": "fill",
-                                    "displayDelayMs": 2000
+                                    "displayDelayMs": 3500
                                 }
                             ],
                             "parentTextBlock": {
@@ -659,16 +659,16 @@
                                     "id": "top",
                                     "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "correct": false
                                 },
                                 {
                                     "id": "bottom",
                                     "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "correct": true
                                 }
                             ],
@@ -693,16 +693,16 @@
                                     "id": "top",
                                     "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "correct": false
                                 },
                                 {
                                     "id": "bottom",
                                     "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "correct": true
                                 }
                             ],
@@ -711,7 +711,8 @@
                                     "There are two kinds of boxes in this game."
                                 ]
                             },
-                            "choiceRequired": false
+                            "choiceRequired": false,
+                            "autoProceed": false
                         },
                         {
                             "kind": "exp-lookit-video",
@@ -786,16 +787,16 @@
                                     "id": "top",
                                     "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "correct": false
                                 },
                                 {
                                     "id": "bottom",
                                     "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "correct": true
                                 }
                             ],
@@ -804,7 +805,8 @@
                                     "In one of these videos this person is playing with a Shape box and in the other one they are playing with a Number box. Can you guess which one is which?"
                                 ]
                             },
-                            "choiceRequired": false
+                            "choiceRequired": false,
+                            "durationSeconds": 18
                         },
 
                         {
@@ -886,7 +888,8 @@
                                     "Let's play the game!"
                                 ]
                             },
-                            "choiceRequired": false
+                            "choiceRequired": false,
+                            "durationSeconds": 4
                         }
                     ],
                     "parameterSets": [
@@ -963,19 +966,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false,
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1003,19 +1004,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1051,19 +1050,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1079,7 +1076,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_shape_long",
                             "images": [
                                 {
                                     "id": "trial1l",
@@ -1100,21 +1097,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "nonChoiceOption": true
-
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "nonChoiceOption": true
-
                                 }
                             ],
                             "highlights": "HIGHLIGHTS-1",
@@ -1143,18 +1138,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30"
-
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1182,17 +1176,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1226,18 +1220,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30"
-
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1253,7 +1246,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_number_long",
                             "images": [
                                 {
                                     "id": "trial2l",
@@ -1273,23 +1266,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false,
+                                    "left": "42",
+                                    "width": "15",
                                     "nonChoiceOption": true
-
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true,
+                                    "left": "42",
+                                    "width": "15",
                                     "nonChoiceOption": true
-
                                 }
                             ],
                             "highlights": "HIGHLIGHTS-1",
@@ -1313,22 +1302,21 @@
                                     "top": "20",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true,
                                     "displayDelayMs": 2000
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1351,22 +1339,21 @@
                                     "src": "right3",
                                     "top": "20",
                                     "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
+                                    "width": "35"
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1400,17 +1387,17 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30"
+                                    "left": "42",
+                                    "width": "15"
                                 }
                             ],
                             "autoProceed": true,
@@ -1426,7 +1413,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_shape1",
                             "images": [
                                 {
                                     "id": "trial3l",
@@ -1448,22 +1435,21 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "nonChoiceOption": true
-
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
+                                    "left": "42",
+                                    "width": "15",
                                     "nonChoiceOption": true
-
                                 }
+
                             ],
                             "highlights": "HIGHLIGHTS-1",
                             "autoProceed": false,
@@ -1491,19 +1477,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1531,19 +1517,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1566,32 +1552,30 @@
                                     "src": "left4",
                                     "top": "20",
                                     "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true
+                                    "width": "35"
                                 },
                                 {
                                     "id": "trial4r",
                                     "src": "right4",
                                     "top": "20",
                                     "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
+                                    "width": "35"
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1607,7 +1591,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_number1",
                             "images": [
                                 {
                                     "id": "trial4l",
@@ -1615,7 +1599,7 @@
                                     "top": "20",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "trial4r",
@@ -1623,26 +1607,25 @@
                                     "top": "20",
                                     "left": "65",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
+
                             ],
                             "highlights": "HIGHLIGHTS-1",
                             "autoProceed": false,
@@ -1670,19 +1653,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1710,19 +1693,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1758,19 +1741,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1786,7 +1769,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_number",
                             "images": [
                                 {
                                     "id": "trial5l",
@@ -1794,7 +1777,7 @@
                                     "top": "20",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "trial5r",
@@ -1802,25 +1785,24 @@
                                     "top": "20",
                                     "left": "65",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
                                 }
                             ],
                             "highlights": "HIGHLIGHTS-1",
@@ -1849,19 +1831,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1889,19 +1871,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1937,19 +1919,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -1965,7 +1947,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_shape",
                             "images": [
                                 {
                                     "id": "trial6l",
@@ -1973,7 +1955,7 @@
                                     "top": "20",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "trial6r",
@@ -1981,25 +1963,23 @@
                                     "top": "20",
                                     "left": "65",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "highlights": "HIGHLIGHTS-1",
@@ -2048,19 +2028,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -2088,19 +2068,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -2136,19 +2116,19 @@
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "autoProceed": true,
@@ -2164,7 +2144,7 @@
                             }
                         },
                         {
-                            "audio": "instruction_11b",
+                            "audio": "q_shape",
                             "images": [
                                 {
                                     "id": "trial7l",
@@ -2172,7 +2152,7 @@
                                     "top": "20",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "trial7r",
@@ -2180,25 +2160,23 @@
                                     "top": "20",
                                     "left": "65",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "top",
-                                    "src": "top-br.jpg",
+                                    "src": "number_box.png",
                                     "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 },
                                 {
                                     "id": "bottom",
-                                    "src": "bottom-rb.jpg",
+                                    "src": "shape_box.png",
                                     "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true,
-                                    "feedbackAudio": "thankyou"
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
                                 }
                             ],
                             "highlights": "HIGHLIGHTS-1",
