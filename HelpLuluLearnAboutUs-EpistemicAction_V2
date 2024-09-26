@@ -1803,7 +1803,7 @@
                                     "width": "15",
                                     "nonChoiceOption": true
                                 }
-                                }
+                                
                             ],
                             "highlights": "HIGHLIGHTS-1",
                             "autoProceed": false,
