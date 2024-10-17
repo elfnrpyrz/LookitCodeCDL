@@ -1,0 +1,3533 @@
+{
+    "frames": {
+        "practiceFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": true,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "practice_1",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": false,
+                            "maximizeDisplay": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "practice_23",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "redbox-demo12"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The red boxes are special. They have EITHER 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "bluebox-demo12"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "Blue boxes are special in a different way! They have EITHER a ball OR a block inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 0,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "practice_4",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "60",
+                                    "left": "35",
+                                    "width": "30",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "30",
+                                    "correct": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "In this part, you will see what is hidden inside the two boxes. Your job is to choose the button that shows where the red and the blue boxes are.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_5",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Let's give it a try!",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "practice_ball",
+                            "images": [
+                                {
+                                    "id": "practicestimL",
+                                    "src": "ball.gif",
+                                    "top": "5",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "The box on the left has a ball inside. The box on the right has 10 coins inside.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_coin10",
+                            "images": [
+                                {
+                                    "id": "practicestimR",
+                                    "src": "coin10.gif",
+                                    "top": "5",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "The box on the left has a ball inside. The box on the right has 10 coins inside.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_8",
+                            "images": [
+                                {
+                                    "id": "practicestimL",
+                                    "src": "ball.gif",
+                                    "top": "5",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "practicestimR",
+                                    "src": "coin10.gif",
+                                    "top": "5",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "60",
+                                    "left": "35",
+                                    "width": "30",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "30",
+                                    "correct": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "practicestimL",
+                                    "src": "ball.gif",
+                                    "top": "5",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "practicestimR",
+                                    "src": "coin10.gif",
+                                    "top": "5",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "60",
+                                    "left": "35",
+                                    "width": "30",
+                                    "feedbackAudio": "feed_corr_1",
+                                    "correct": true
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "30",
+                                    "feedbackAudio": "feed_incorr_1",
+                                    "correct": false
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Where are the red and the blue boxes? To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_6",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox2.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "That was fun! Let's do it again!",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "practice_coin5",
+                            "images": [
+                                {
+                                    "id": "practicestimL",
+                                    "src": "coin5.gif",
+                                    "top": "5",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "The box on the left has 5 coins inside. The box on the right has a block inside.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_block",
+                            "images": [
+                                {
+                                    "id": "practicestimR",
+                                    "src": "block.gif",
+                                    "top": "5",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "durationSeconds": 10
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "The box on the left has 5 coins inside. The box on the right has a block inside.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_8",
+                            "images": [
+                                {
+                                    "id": "practicestimL",
+                                    "src": "coin5.gif",
+                                    "top": "5",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "practicestimR",
+                                    "src": "block.gif",
+                                    "top": "5",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "60",
+                                    "left": "35",
+                                    "width": "30",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "30",
+                                    "correct": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_7",
+                            "images": [
+                                {
+                                    "id": "practicestimL",
+                                    "src": "coin5.gif",
+                                    "top": "5",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "practicestimR",
+                                    "src": "block.gif",
+                                    "top": "5",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "top",
+                                    "src": "top-br.jpg",
+                                    "top": "60",
+                                    "left": "35",
+                                    "width": "30",
+                                    "feedbackAudio": "feed_incorr_2",
+                                    "correct": false
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "bottom-rb.jpg",
+                                    "top": "80",
+                                    "left": "35",
+                                    "width": "30",
+                                    "feedbackAudio": "feed_corr_2",
+                                    "correct": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": true,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Where are the red and the blue boxes? To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "practice_9",
+                            "images": [
+                                {
+                                    "id": "practicestim",
+                                    "src": "twobox3.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Great practicing! Now you know how the buttons work!",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "testIntroFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": false,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "audio": "intro_1",
+                            "images": [
+                                {
+                                    "id": "intro1",
+                                    "src": "alien_1.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Now, let’s get started with today’s game. Today we are playing a guessing game with our friend, an alien from another planet."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "intro_2",
+                            "images": [
+                                {
+                                    "id": "intro2",
+                                    "src": "alien_8.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend does not know much about Earth and how things work here, like what people do with different objects in boxes!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "intro_3",
+                            "images": [
+                                {
+                                    "id": "intro3",
+                                    "src": "AA-ns-demo.gif",
+                                    "position": "fill",
+                                    "displayDelayMs": 3500
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "You will see videos of people playing with boxes. They are trying to guess what is hidden inside each box."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "intro_4",
+                            "images": [
+                                {
+                                    "id": "intro4a",
+                                    "src": "trial-view-1.png",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "intro4b",
+                                    "src": "trial-view-2.png",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "intro4c",
+                                    "src": "alien_6.png",
+                                    "position": "right",
+                                    "width": "40",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Your job today is to help our alien friend figure out which kind the boxes are."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+
+                        {
+                            "audio": "intro_5",
+                            "images": [
+                                {
+                                    "id": "intro5",
+                                    "src": "AA-ns-demo.gif",
+                                    "top": "10",
+                                    "width": "100"
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "There are two kinds of boxes in this game."
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "autoProceed": false
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "demo_n"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The first kind is a Number Box. The number box can have EITHER 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 21,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "kind": "exp-lookit-video",
+                            "video": {
+                                "position": "fill",
+                                "loop": false,
+                                "source": "demo_s"
+                            },
+                            "backgroundColor": "black",
+                            "autoProceed": true,
+                            "parentTextBlock": {
+                                "text": "The second type of box is a Shape Box! The shape box can have EITHER a ball OR a block inside. (If your child needs a break, press the space bar to pause!)"
+                            },
+                            "requiredDuration": 21,
+                            "requireAudioCount": 0,
+                            "requireVideoCount": 1,
+                            "doRecording": false,
+                            "frameOffsetAfterPause": 0,
+                            "pauseAudio": "pause",
+                            "unpauseAudio": "return_after_pause",
+                            "pauseVideo": "attentiongrabber",
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "audioTypes": [
+                                "ogg",
+                                "mp3"
+                            ],
+                            "videoTypes": [
+                                "webm",
+                                "mp4"
+                            ]
+                        },
+                        {
+                            "audio": "intro_6",
+                            "images": [
+                                {
+                                    "id": "intro6",
+                                    "src": "AA-ns-demo.gif",
+                                    "top": "10",
+                                    "width": "100"
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "In one of these videos this person is playing with a Shape box and in the other one they are playing with a Number box. Can you guess which one is which?"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "durationSeconds": 18
+                        },
+
+                        {
+                            "audio": "intro_7",
+                            "images": [
+                                {
+                                    "id": "intro7",
+                                    "src": "alien_3.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our friend will give you a STAR each time you pick the boxes correctly."
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_7",
+                            "images": [
+                                {
+                                    "id": "inst7",
+                                    "src": "alien_6.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Sometimes you might find it easy, other times you might find it tricky. When it is tricky, it is okay to guess!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_8",
+                            "images": [
+                                {
+                                    "id": "intro3a",
+                                    "src": "trial-view-1.png",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "intro3b",
+                                    "src": "trial-view-2.png",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "intro3c",
+                                    "src": "alien_4.png",
+                                    "position": "fill",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Our alien friend will collect all of the stars for you and we'll see how many stars you get at the end!"
+                                ]
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "instruction_9",
+                            "images": [
+                                {
+                                    "id": "intro9",
+                                    "src": "alien_2.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Let's play the game!"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "durationSeconds": 4
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "HIGHLIGHTS-2": [
+                                {
+                                    "range": [
+                                        8,
+                                        10
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        11,
+                                        13
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "testFrameGroup": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "autoProceed": true,
+                        "doRecording": false,
+                        "choiceRequired": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial1l",
+                                    "src": "left1",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "displayDelayMs": 2000,
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial1r",
+                                    "src": "right1",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial1l",
+                                    "src": "left1",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial1r",
+                                    "src": "right1",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial1",
+                            "images": [
+                                {
+                                    "id": "trial1l",
+                                    "src": "left1",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+
+                                },
+                                {
+                                    "id": "trial1r",
+                                    "src": "right1",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question1",
+                                    "src": "q1",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial2l",
+                                    "src": "left2",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial2r",
+                                    "src": "right2",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial2l",
+                                    "src": "left2",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35"
+                                },
+                                {
+                                    "id": "trial2r",
+                                    "src": "right2",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35"
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial2",
+                            "images": [
+                                {
+                                    "id": "trial2l",
+                                    "src": "left2",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial2r",
+                                    "src": "right2",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question2",
+                                    "src": "q2",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial3l",
+                                    "src": "left3",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "displayDelayMs": 2000,
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial3r",
+                                    "src": "right3",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial3l",
+                                    "src": "left3",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial3r",
+                                    "src": "right3",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial3",
+                            "images": [
+                                {
+                                    "id": "trial3l",
+                                    "src": "left3",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+
+                                },
+                                {
+                                    "id": "trial3r",
+                                    "src": "right3",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+
+                                },
+                                {
+                                    "id": "question3",
+                                    "src": "q3",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial4l",
+                                    "src": "left4",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "displayDelayMs": 2000,
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial4r",
+                                    "src": "right4",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                  },
+                                  {
+                                      "id": "button",
+                                      "src": "button.png",
+                                      "top": "60",
+                                      "left": "42",
+                                      "width": "15"
+                                  }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial4l",
+                                    "src": "left4",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial4r",
+                                    "src": "right4",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial4",
+                            "images": [
+                                {
+                                    "id": "trial4l",
+                                    "src": "left4",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial4r",
+                                    "src": "right4",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question4",
+                                    "src": "q4",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial5l",
+                                    "src": "left5",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial5r",
+                                    "src": "right5",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial5l",
+                                    "src": "left5",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial5r",
+                                    "src": "right5",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial5",
+                            "images": [
+                                {
+                                    "id": "trial5l",
+                                    "src": "left5",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial5r",
+                                    "src": "right5",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question5",
+                                    "src": "q5",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+<<<<<<< HEAD
+                                }
+
+=======
+                                },
+                                {
+                                    "id": "bottom",
+                                    "src": "shape_box.png",
+                                    "top": "80",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                                
+>>>>>>> 275fbeafea01045fc35db148e1674fd2a860a708
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial6l",
+                                    "src": "left6",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial6r",
+                                    "src": "right6",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial6l",
+                                    "src": "left6",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial6r",
+                                    "src": "right6",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial6",
+                            "images": [
+                                {
+                                    "id": "trial6l",
+                                    "src": "left6",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial6r",
+                                    "src": "right6",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question6",
+                                    "src": "q6",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "greatjob2",
+                            "images": [
+                                {
+                                    "id": "mid-exp-check",
+                                    "src": "alien_7.gif",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": false,
+                            "maximizeDisplay": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Look, our alien friend is collecting the stars for you. Keep going, and let’s see how many you get at the end."
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial7l",
+                                    "src": "left7",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial7r",
+                                    "src": "right7",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial7l",
+                                    "src": "left7",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial7r",
+                                    "src": "right7",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial7",
+                            "images": [
+                                {
+                                    "id": "trial7l",
+                                    "src": "left7",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial7r",
+                                    "src": "right7",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question7",
+                                    "src": "q7",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial8l",
+                                    "src": "left8",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial8r",
+                                    "src": "right8",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial8l",
+                                    "src": "left8",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial8r",
+                                    "src": "right8",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial8",
+                            "images": [
+                                {
+                                    "id": "trial8l",
+                                    "src": "left8",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial8r",
+                                    "src": "right8",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question8",
+                                    "src": "q8",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial9l",
+                                    "src": "left9",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial9r",
+                                    "src": "right9",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial9l",
+                                    "src": "left9",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial9r",
+                                    "src": "right9",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial9",
+                            "images": [
+                                {
+                                    "id": "trial9l",
+                                    "src": "left9",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial9r",
+                                    "src": "right9",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question9",
+                                    "src": "q9",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial10l",
+                                    "src": "left10",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial10r",
+                                    "src": "right10",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial10l",
+                                    "src": "left10",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial10r",
+                                    "src": "right10",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial10",
+                            "images": [
+                                {
+                                    "id": "trial10l",
+                                    "src": "left10",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial10r",
+                                    "src": "right10",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question1",
+                                    "src": "q1",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial11l",
+                                    "src": "left11",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial11r",
+                                    "src": "right11",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial11l",
+                                    "src": "left11",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial11r",
+                                    "src": "right11",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial11",
+                            "images": [
+                                {
+                                    "id": "trial11l",
+                                    "src": "left11",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "trial11r",
+                                    "src": "right11",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "feedbackAudio": "thankyou"
+                                },
+                                {
+                                    "id": "question11",
+                                    "src": "q11",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-left",
+                            "images": [
+                                {
+                                    "id": "trial12l",
+                                    "src": "left12",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true,
+                                    "displayDelayMs": 2000
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 12,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "box-right",
+                            "images": [
+                                {
+                                    "id": "trial12r",
+                                    "src": "right12",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "instruction_10",
+                            "images": [
+                                {
+                                    "id": "trial12l",
+                                    "src": "left12",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial12r",
+                                    "src": "right12",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "button",
+                                    "src": "button.png",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15"
+                                }
+                            ],
+                            "autoProceed": true,
+                            "choiceRequired": false,
+                            "durationSeconds": 10,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "audio": "trial12",
+                            "images": [
+                                {
+                                    "id": "trial12l",
+                                    "src": "left12",
+                                    "top": "20",
+                                    "left": "0",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "trial12r",
+                                    "src": "right12",
+                                    "top": "20",
+                                    "left": "65",
+                                    "width": "35",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "question12",
+                                    "src": "q12",
+                                    "top": "60",
+                                    "left": "42",
+                                    "width": "15",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "highlights": "HIGHLIGHTS-1",
+                            "autoProceed": false,
+                            "choiceRequired": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "title": "For Parents"
+                            }
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                            "video": "",
+                            "image": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "left1": "AG_s.gif",
+                            "right1": "AG_n.gif",
+                            "left2": "GP_s.gif",
+                            "right2": "GP_n.gif",
+                            "left3": "JM_n.gif",
+                            "right3": "JM_s.gif",
+                            "left4": "RZ_n.gif",
+                            "right4": "RZ_s.gif",
+                            "left5": "VR_s.gif",
+                            "right5": "VR_n.gif",
+                            "left6": "GB_s.gif",
+                            "right6": "GB_n.gif",
+                            "left7": "ZZ_n.gif",
+                            "right7": "ZZ_s.gif",
+                            "left8": "AK_n.gif",
+                            "right8": "AK_s.gif",
+                            "left9": "QZ_s.gif",
+                            "right9": "QZ_n.gif",
+                            "left10": "YL_s.gif",
+                            "right10": "YL_n.gif",
+                            "left11": "JE_n.gif",
+                            "right11": "JE_s.gif",
+                            "left12": "FZ_n.gif",
+                            "right12": "FZ_s.gif",
+                            "trial1": "shape",
+                            "q1"    : "shape.png",
+                            "trial2": "number",
+                            "q2"    : "number.png",
+                            "trial3": "shape",
+                            "q3"    : "shape.png",
+                            "trial4": "number",
+                            "q4"    : "number.png",
+                            "trial5": "shape",
+                            "q5"    : "shape.png",
+                            "trial6": "number",
+                            "q6"    : "number.png",
+                            "trial7": "shape",
+                            "q7"    : "shape.png",
+                            "trial8": "number",
+                            "q8"    : "number.png",
+                            "trial9": "shape",
+                            "q9"    : "shape.png",
+                            "trial10": "number",
+                            "q10"    : "number.png",
+                            "trial11": "shape",
+                            "q11"    : "shape.png",
+                            "trial12": "number",
+                            "q12"    : "number.png"
+                        },
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "left1": "AG_s.gif",
+                            "right1": "AG_n.gif",
+                            "left2": "GP_s.gif",
+                            "right2": "GP_n.gif",
+                            "left3": "JM_n.gif",
+                            "right3": "JM_s.gif",
+                            "left4": "RZ_n.gif",
+                            "right4": "RZ_s.gif",
+                            "left5": "VR_s.gif",
+                            "right5": "VR_n.gif",
+                            "left6": "GB_s.gif",
+                            "right6": "GB_n.gif",
+                            "left7": "ZZ_n.gif",
+                            "right7": "ZZ_s.gif",
+                            "left8": "AK_n.gif",
+                            "right8": "AK_s.gif",
+                            "left9": "QZ_s.gif",
+                            "right9": "QZ_n.gif",
+                            "left10": "YL_s.gif",
+                            "right10": "YL_n.gif",
+                            "left11": "JE_n.gif",
+                            "right11": "JE_s.gif",
+                            "left12": "FZ_n.gif",
+                            "right12": "FZ_s.gif",
+                            "trial1": "number",
+                            "q1"    : "number.png",
+                            "trial2": "shape",
+                            "q2"    : "shape.png",
+                            "trial3": "number",
+                            "q3"    : "number.png",
+                            "trial4": "shape",
+                            "q4"    : "shape.png",
+                            "trial5": "number",
+                            "q5"    : "number.png",
+                            "trial6": "shape",
+                            "q6"    : "shape.png",
+                            "trial7": "number",
+                            "q7"    : "number.png",
+                            "trial8": "shape",
+                            "q8"    : "shape.png",
+                            "trial9": "number",
+                            "q9"    : "number.png",
+                            "trial10": "shape",
+                            "q10"    : "shape.png",
+                            "trial11": "number",
+                            "q11"    : "number.png",
+                            "trial12": "shape",
+                            "q12"    : "shape.png"
+
+                        },
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "left1": "AG_n.gif",
+                            "right1": "AG_s.gif",
+                            "left2": "GP_n.gif",
+                            "right2": "GP_s.gif",
+                            "left3": "JM_s.gif",
+                            "right3": "JM_n.gif",
+                            "left4": "RZ_s.gif",
+                            "right4": "RZ_n.gif",
+                            "left5": "VR_n.gif",
+                            "right5": "VR_s.gif",
+                            "left6": "GB_n.gif",
+                            "right6": "GB_s.gif",
+                            "left7": "ZZ_s.gif",
+                            "right7": "ZZ_n.gif",
+                            "left8": "AK_s.gif",
+                            "right8": "AK_n.gif",
+                            "left9": "QZ_n.gif",
+                            "right9": "QZ_s.gif",
+                            "left10": "YL_n.gif",
+                            "right10": "YL_s.gif",
+                            "left11": "JE_s.gif",
+                            "right11": "JE_n.gif",
+                            "left12": "FZ_s.gif",
+                            "right12": "FZ_n.gif",
+                            "trial1": "shape",
+                            "q1"    : "shape.png",
+                            "trial2": "number",
+                            "q2"    : "number.png",
+                            "trial3": "shape",
+                            "q3"    : "shape.png",
+                            "trial4": "number",
+                            "q4"    : "number.png",
+                            "trial5": "shape",
+                            "q5"    : "shape.png",
+                            "trial6": "number",
+                            "q6"    : "number.png",
+                            "trial7": "shape",
+                            "q7"    : "shape.png",
+                            "trial8": "number",
+                            "q8"    : "number.png",
+                            "trial9": "shape",
+                            "q9"    : "shape.png",
+                            "trial10": "number",
+                            "q10"    : "number.png",
+                            "trial11": "shape",
+                            "q11"    : "shape.png",
+                            "trial12": "number",
+                            "q12"    : "number.png"
+                        },
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        14.75,
+                                        17
+                                    ],
+                                    "imageId": "top"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "bottom"
+                                }
+                            ],
+                            "left1": "AG_n.gif",
+                            "right1": "AG_s.gif",
+                            "left2": "GP_n.gif",
+                            "right2": "GP_s.gif",
+                            "left3": "JM_s.gif",
+                            "right3": "JM_n.gif",
+                            "left4": "RZ_s.gif",
+                            "right4": "RZ_n.gif",
+                            "left5": "VR_n.gif",
+                            "right5": "VR_s.gif",
+                            "left6": "GB_n.gif",
+                            "right6": "GB_s.gif",
+                            "left7": "ZZ_s.gif",
+                            "right7": "ZZ_n.gif",
+                            "left8": "AK_s.gif",
+                            "right8": "AK_n.gif",
+                            "left9": "QZ_n.gif",
+                            "right9": "QZ_s.gif",
+                            "left10": "YL_n.gif",
+                            "right10": "YL_s.gif",
+                            "left11": "JE_s.gif",
+                            "right11": "JE_n.gif",
+                            "left12": "FZ_s.gif",
+                            "right12": "FZ_n.gif",
+                            "trial1": "number",
+                            "q1"    : "number.png",
+                            "trial2": "shape",
+                            "q2"    : "shape.png",
+                            "trial3": "number",
+                            "q3"    : "number.png",
+                            "trial4": "shape",
+                            "q4"    : "shape.png",
+                            "trial5": "number",
+                            "q5"    : "number.png",
+                            "trial6": "shape",
+                            "q6"    : "shape.png",
+                            "trial7": "number",
+                            "q7"    : "number.png",
+                            "trial8": "shape",
+                            "q8"    : "shape.png",
+                            "trial9": "number",
+                            "q9"    : "number.png",
+                            "trial10": "shape",
+                            "q10"    : "shape.png",
+                            "trial11": "number",
+                            "q11"    : "number.png",
+                            "trial12": "shape",
+                            "q12"    : "shape.png"
+                        },
+
+                    ]
+                }
+            ]
+        },
+        "study-alldone": {
+            "kind": "exp-lookit-images-audio",
+            "audio": "alldone",
+            "images": [
+                      {
+                            "id": "fin",
+                            "src": "alien_10.png",
+                            "position": "fill"
+                        }
+                    ],
+                    "parentTextBlock": {
+                        "text": [
+                            "Yay! Great job! Look at all the stars you got! Thank you for helping our alien friend."
+                        ]
+                    },
+                    "choiceRequired": false,
+                    "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                    "showPreviousButton": false,
+                    "allowUserPause": false,
+                    "waitForRecordingMessageColor": "black"
+                },
+        "video-config": {
+            "kind": "exp-video-config",
+            "troubleshootingIntro": "If you're having any trouble or would like us to walk you through setup, please email child.research@psych.rutgers.edu."
+        },
+        "video-consent": {
+            "kind": "exp-lookit-video-consent",
+            "template": "consent_005",
+            "PIName": "Jenny Wang",
+            "institution": "Rutgers University - New Brunswick",
+            "PIContact": "child.research@psych.rutgers.edu",
+            "purpose": "This study is part of a larger research program aiming to understand how infants and children develop their understanding of objects and quantities.",
+            "procedures": "We conduct studies with infants and children of all ages. For infant studies, infants are shown videos and images on the screen and we measure what they are interested in by recording their eye-movements. You may be asked to close your eyes while your child watches videos so that your behavior doesn’t influence where your child looks. Children may be asked to make judgments, answer questions (such as making predictions and providing explanations), learn from and teach others, observe events, and perform actions such pointing to parts of the screen. You and your child may be asked to answer a brief set of questions. There are no “right or wrong” responses to any of these questions or tasks, we simply want to find out how children of different ages understand and learn about the world.",
+            "voluntary_participation": "",
+            "risk_statement": "The risks associated with participation in this study are no greater than those encountered in daily life. ",
+            "payment": "Parents often feel that they benefit from this experience because learning more about child development is interesting and enjoyable. Children often find our studies fun! This study may benefit society if the results lead to a better understanding of children’s behavior.",
+            "include_databrary": true,
+            "gdpr": false,
+            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study. If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Rutgers IRB Director at: Arts and Sciences IRB, 335 George St., Liberty Plaza Ste. 3200, New Brunswick, NJ 08901 (732) 235-2866 or the Rutgers Human Subjects Protection Program at (973) 972-1149, email us at humansubjects@ored.rutgers.edu."
+        },
+        "roadmap-1": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Below is the image you'll be seeing to show you where you're at and what the next step is throughout the study. To start, you will go through the instructions then complete a quick quiz to ensure your understanding of them.",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_1.jpg"
+                    },
+                    "title": "Road Map"
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "instructions1": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "text": "The study will take 15 minutes to complete. After that, you will be able to select a level of privacy for your data. To ensure that everything goes smoothly, please close other browser tabs and windows now."
+                },
+                {
+                    "title": "Study overview",
+                    "listblocks": [
+                        {
+                            "text": "Your child is going to answer some questions. They will see videos of people shaking boxes. The questions will ask them to guess which kind of boxes are being shaken."
+                        },
+                        {
+                            "text": "For each question, you and your child will see some videos and hear the question, then your child should answer - they can do this by telling you their choice and having you click for them."
+                        },
+                        {
+                            "text": "You can click through to the next question after your child has answered."
+                        }
+                    ]
+                }
+            ],
+            "mustPlay": false,
+            "showWebcam": false,
+            "nextButtonText": "Next"
+        },
+        "instructions2": {
+            "kind": "exp-lookit-instructions",
+            "blocks": [
+                {
+                    "title": "Remember: There are no wrong answers! We're interested in how children think about these questions, which may be different from how adults think about them. We'll need your help!",
+                    "listblocks": [
+                        {
+                            "text": "It's important not to 'give away' any of your own thoughts about the answers-- you can say 'Okay!', but not 'That's right!' or 'Hmm, are you sure?'"
+                        },
+                        {
+                            "text": "It's natural to want to interact about the questions, but please hold discussion until the end of the study."
+                        },
+                        {
+                            "text": "If your child gets distracted for a bit, that's fine - please just encourage them to keep watching and listening."
+                        },
+                        {
+                            "text": "If your child doesn't answer a question right away, you can encourage them to answer - just don't tell them what you think the answer is. You can also replay the question with the 'Replay' button."
+                        }
+                    ]
+                },
+                {
+                    "text": "Before starting, make sure your audio is working.",
+                    "title": "Test your audio",
+                    "mediaBlock": {
+                        "text": "You should hear 'Ready to go!'",
+                        "isVideo": false,
+                        "sources": [
+                            {
+                                "src": "https://raw.githubusercontent.com/lookit/template-study-stim/master/bothright/mp3/ready.mp3",
+                                "type": "audio/mp3"
+                            }
+                        ],
+                        "mustPlay": true,
+                        "warningText": "Please try playing the sample audio."
+                    }
+                }
+            ],
+            "mustPlay": false,
+            "nextButtonText": "Next"
+        },
+        "instruction-survey-multiple": {
+            "kind": "exp-lookit-survey",
+            "formSchema": {
+                "schema": {
+                    "type": "object",
+                    "properties": {
+                        "parentbutton": {
+                            "type": "string",
+                            "title": "Where should you be during the study?",
+                            "enum": [
+                                "In the kitchen making food.",
+                                "Sitting next to your child and help them understand the instructions.",
+                                "Going to get some cookies from the store."
+                            ]
+                        },
+                        "bfeedback": {
+                            "type": "text",
+                            "title": "Even though your child may be able to read and click buttons well, it is helpful for you to be there to make sure they follow the instructions throughout the study."
+                        },
+                        "parentresponse": {
+                            "type": "string",
+                            "title": "Which of these can you say after your child answers a question?",
+                            "enum": [
+                                "Okay!",
+                                "Hmm, I don't think so.",
+                                "Are you sure?"
+                            ]
+                        },
+                        "qfeedback": {
+                            "type": "text",
+                            "title": "We're interested in how children think about these questions, which might be different from how adults think about them. It's important not to 'give away' any of your own thoughts or answers."
+                        },
+                        "parentencourage": {
+                            "type": "string",
+                            "title": "What should you do if your child is distracted during a question?",
+                            "enum": [
+                                "Quit the study.",
+                                "Encourage them to keep watching and listening.",
+                                "Give them a hint."
+                            ]
+                        },
+                        "encfeedback": {
+                            "type": "text",
+                            "title": "It's fine if your child gets distracted at some points during the study! Sometimes a replay option will be available if they didn't hear what was said."
+                        },
+                        "parentstopearly": {
+                            "type": "string",
+                            "title": "Is it ok to stop the study early?",
+                            "enum": [
+                                "No, I must complete the full study.",
+                                "Yes, I can press F1 or ctrl-X or close the tab at any time."
+                            ]
+                        },
+                        "earlyfeedback": {
+                            "type": "text",
+                            "title": "It's great if you can complete the study, but if your child is upset or either of you do not want to continue, you do not need to complete the study."
+                        }
+                    },
+                    "dependencies": {
+                        "bfeedback": [
+                            "parentbutton"
+                        ],
+                        "qfeedback": [
+                            "parentresponse"
+                        ],
+                        "encfeedback": [
+                            "parentencourage"
+                        ],
+                        "earlyfeedback": [
+                            "parentstopearly"
+                        ]
+                    }
+                },
+                "options": {
+                    "fields": {
+                        "parentbutton": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 3
+                        },
+                        "bfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentbutton": [
+                                    "In the kitchen making food.",
+                                    "Going to get some cookies from the store."
+                                ]
+                            },
+                            "order": 4
+                        },
+                        "parentresponse": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 5
+                        },
+                        "qfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentresponse": [
+                                    "Hmm, I don't think so.",
+                                    "Are you sure?"
+                                ]
+                            },
+                            "order": 6
+                        },
+                        "parentencourage": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 7
+                        },
+                        "encfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentencourage": [
+                                    "Quit the study.",
+                                    "Give them a hint."
+                                ]
+                            },
+                            "order": 8
+                        },
+                        "parentstopearly": {
+                            "type": "radio",
+                            "message": "Please select an answer",
+                            "validator": "required-field",
+                            "sort": false,
+                            "removeDefaultNone": true,
+                            "order": 9
+                        },
+                        "earlyfeedback": {
+                            "type": "text",
+                            "validator": "required-field",
+                            "placeholder": "Try selecting a different answer above!",
+                            "disabled": true,
+                            "dependencies": {
+                                "parentstopearly": [
+                                    "No, I must complete the full study."
+                                ]
+                            },
+                            "order": 10
+                        }
+                    }
+                }
+            }
+        },
+        "roadmap-2": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "Great job! Now it's time to get into position.",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_2.jpg"
+                    },
+                    "title": "Road Map"
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "positioning": {
+            "kind": "exp-video-config-quality",
+            "title": "Positioning",
+            "introText": "It's time to get your child & check yourself out!",
+            "showRecordMenu": false,
+            "requireTestVideo": false,
+            "completedItemText": "Got it!",
+            "instructionBlocks": [
+                {
+                    "text": "You and your child can sit in any position.",
+                    "title": "Get comfortable"
+                },
+                {
+                    "text": "Go ahead and get settled and use the webcam preview to make sure your child’s whole face and torso are in view.",
+                    "title": "Take a few moments"
+                },
+                {
+                    "text": "Press the 'Next' button down below if you and your child are in position and ready to go.",
+                    "title": "When you're ready"
+                }
+            ],
+            "nextButtonText": "My child and I are in position and ready to start!",
+            "showPreviousButton": true,
+            "requireItemConfirmation": true,
+            "recordingInstructionText": ""
+        },
+        "roadmap-3": {
+            "kind": "exp-lookit-text",
+            "blocks": [
+                {
+                    "text": "We are all set for the game! Let's help Lulu together!",
+                    "image": {
+                        "alt": "Signpost image",
+                        "src": "https://raw.githubusercontent.com/RUCALC/beliefans/master/img/road_map_3.jpg"
+                    },
+                    "title": ""
+                }
+            ],
+            "showPreviousButton": true
+        },
+        "final-survey": {
+            "sampler": "permute",
+            "kind": "choice",
+            "frameOptions": [
+                {
+                    "kind": "choice",
+                    "sampler": "random-parameter-set",
+                    "commonFrameProperties": {
+                        "kind": "exp-lookit-images-audio",
+                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                        "audioTypes": [
+                            "mp3"
+                        ],
+                        "doRecording": true,
+                        "showPreviousButton": false,
+                        "allowUserPause": false,
+                        "waitForRecordingMessageColor": "black"
+                    },
+                    "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": false
+                        },
+                        {
+                            "audio": "q_intro",
+                            "images": [
+                                {
+                                    "id": "q_intro",
+                                    "src": "q_mark.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "autoProceed": false,
+                            "maximizeDisplay": true,
+                            "parentTextBlock": {
+                                "css": {
+                                    "font-size": "13pt",
+                                    "padding": "0.5em"
+                                },
+                                "text": "We'd like to get some feedback from your child about the game! Please help them to select the buttons on the screen, and encourage them to give a verbal answer!",
+                                "title": "For Parents"
+                            },
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "question1",
+                            "images": [
+                                {
+                                    "id": "q_1",
+                                    "src": "q1.png",
+                                    "top": "5",
+                                    "left": "15",
+                                    "width": "70",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "opt1",
+                                    "src": "little.png",
+                                    "top": "50",
+                                    "left": "10",
+                                    "width": "10",
+                                    "displayDelayMs": 2500
+                                },
+                                {
+                                    "id": "opt2",
+                                    "src": "justokay.png",
+                                    "top": "50",
+                                    "left": "45",
+                                    "width": "10",
+                                    "displayDelayMs": 4000
+                                },
+                                {
+                                    "id": "opt3",
+                                    "src": "alot.png",
+                                    "top": "50",
+                                    "left": "80",
+                                    "width": "10",
+                                    "displayDelayMs": 5000
+                                }
+                            ],
+                            "autoProceed": false,
+                            "maximizeDisplay": true,
+                            "choiceRequired": true
+                        },
+                        {
+                            "audio": "question2",
+                            "images": [
+                                {
+                                    "id": "q_2",
+                                    "src": "q2.png",
+                                    "top": "5",
+                                    "left": "15",
+                                    "width": "70",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "opt1",
+                                    "src": "easy.png",
+                                    "top": "50",
+                                    "left": "10",
+                                    "width": "10",
+                                    "displayDelayMs": 2500
+                                },
+                                {
+                                    "id": "opt2",
+                                    "src": "justokay2.png",
+                                    "top": "50",
+                                    "left": "45",
+                                    "width": "10",
+                                    "displayDelayMs": 4000
+                                },
+                                {
+                                    "id": "opt3",
+                                    "src": "hard.png",
+                                    "top": "50",
+                                    "left": "80",
+                                    "width": "10",
+                                    "displayDelayMs": 5500
+                                }
+                            ],
+                            "autoProceed": false,
+                            "maximizeDisplay": true,
+                            "choiceRequired": true
+                        },
+                        {
+                            "audio": "question3b",
+                            "images": [
+                                {
+                                    "id": "q_3",
+                                    "src": "q3.png",
+                                    "top": "5",
+                                    "left": "15",
+                                    "width": "70",
+                                    "nonChoiceOption": true
+                                },
+                                {
+                                    "id": "opt1",
+                                    "src": "alien_11.png",
+                                    "top": "30",
+                                    "left": "40",
+                                    "width": "20",
+                                    "nonChoiceOption": true
+                                }
+                            ],
+                            "autoProceed": false,
+                            "maximizeDisplay": true,
+                            "choiceRequired": false
+                        },
+                        {
+                            "audio": "alldone2",
+                            "images": [
+                                {
+                                    "id": "fin",
+                                    "src": "alien_10.png",
+                                    "position": "fill"
+                                }
+                            ],
+                            "parentTextBlock": {
+                                "text": [
+                                    "Thank you again so much for helping our friend. You are all done!"
+                                ]
+                            },
+                            "choiceRequired": false,
+                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
+                            "showPreviousButton": false,
+                            "allowUserPause": false,
+                            "waitForRecordingMessageColor": "black"
+                        },
+                        {
+                            "kind": "exp-lookit-stop-recording",
+                             "video": "",
+                             "image": "",
+                             "displayFullscreen": true,
+                             "doRecording": false
+                         }
+                    ],
+                    "parameterSets": [
+                        {
+                            "HIGHLIGHTS-1": [
+                                {
+                                    "range": [
+                                        15,
+                                        17
+                                    ],
+                                    "imageId": "opt1"
+                                },
+                                {
+                                    "range": [
+                                        18,
+                                        20
+                                    ],
+                                    "imageId": "opt2"
+                                },
+                                {
+                                    "range": [
+                                        21,
+                                        23
+                                    ],
+                                    "imageId": "opt3"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        "exit-survey": {
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "title": "Thank you for participating!",
+                "blocks": [
+                    {
+                        "title": "",
+                        "text": "This research wouldn't be possible without awesome parents like you."
+                    },
+                    {
+                        "title": "Some Background Information:",
+                        "text": "As humans, we are able to make split second numerical discriminations <a href='https://mindmatters.ai/2019/11/babies-have-a-number-sense-before-they-can-count/’ rel= 'noopener' target= '_blank'> ever since we are born.</a> Moreover, <a href='https://www.nature.com/articles/s41467-021-23431-2' rel= 'noopener' target= '_blank'> recent research </a> suggests that children can tell whether a certain quantity pair (e.g., 9 vs 1) is easier or harder to discriminate compared to another pair (e.g., 9 vs. 8). \n\nIn the current study, children watch videos of a person shaking two distinct boxes to figure out whether there are different quantities of objects in the box (5 vs 10 coins); or different shapes (a block or a ball). We are interested in whether children attend to the specific ways the person is physically interacting with the boxes; and they use that information to guess which kind of box someone is shaking. \n\nThis study will help us better understand what kind of information children attend to when others are making numerical judgments."
+                    },
+                    {
+                        "title": "Compensation:",
+                        "text": "This research would not be possible without awesome parents like you. Thank you again for your participation! We will provide a $5 USD Amazon gift card for eligible participants. We will send you 1 gift card within 1 week of your first eligible participation. To be eligible for compensation we ask that you 1) provide a valid consent video (we will show you how!), 2) your child must be in the age range specified above and, 3) your child must be present during the recorded videos. Your child does not need to finish the entire study in order to be eligible for compensation. \n\nPlease tell your friends about your experience. We are always looking for new little scientists to join our community!"
+                    },
+                    {
+                        "title": "Questions or Concerns:",
+                        "text": "Please do not hesitate to contact Elif Poyraz at child.research@psych.rutgers.edu."
+                    }
+                ]
+            }
+        }
+    },
+    "sequence": [
+        "video-config",
+        "video-consent",
+        "roadmap-1",
+        "instructions1",
+        "instructions2",
+        "instruction-survey-multiple",
+        "roadmap-2",
+        "positioning",
+        "roadmap-3",
+        "practiceFrameGroup",
+        "testIntroFrameGroup",
+        "testFrameGroup",
+        "study-alldone",
+        "final-survey",
+        "exit-survey"
+    ]
+}
