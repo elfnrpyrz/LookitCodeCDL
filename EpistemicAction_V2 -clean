@@ -1,564 +1,5 @@
 {
     "frames": {
-        "practiceFrameGroup": {
-            "sampler": "permute",
-            "kind": "choice",
-            "frameOptions": [
-                {
-                    "kind": "choice",
-                    "sampler": "random-parameter-set",
-                    "commonFrameProperties": {
-                        "kind": "exp-lookit-images-audio",
-                        "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
-                        "audioTypes": [
-                            "mp3"
-                        ],
-                        "autoProceed": true,
-                        "doRecording": true,
-                        "choiceRequired": true,
-                        "showPreviousButton": false,
-                        "allowUserPause": false,
-                        "waitForRecordingMessageColor": "black"
-                    },
-                    "frameList": [
-                        {
-                            "kind": "exp-lookit-start-recording",
-                            "video": "",
-                            "displayFullscreen": true,
-                            "doRecording": false
-                        },
-                        {
-                            "audio": "practice_1",
-                            "images": [
-                                {
-                                    "id": "practicestim",
-                                    "src": "twobox.png",
-                                    "position": "fill"
-                                }
-                            ],
-                            "autoProceed": false,
-                            "maximizeDisplay": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
-                                "title": "For Parents"
-                            },
-                            "choiceRequired": false
-                        },
-                        {
-                            "audio": "practice_23",
-                            "images": [
-                                {
-                                    "id": "practicestim",
-                                    "src": "twobox2.png",
-                                    "position": "fill"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "For now, just listen with your child! When we get to the questions, more instructions will appear in this space.",
-                                "title": "For Parents"
-                            },
-                            "choiceRequired": false
-                        },
-                        {
-                            "kind": "exp-lookit-video",
-                            "video": {
-                                "position": "fill",
-                                "loop": false,
-                                "source": "redbox-demo12"
-                            },
-                            "backgroundColor": "black",
-                            "autoProceed": true,
-                            "parentTextBlock": {
-                                "text": "The red boxes are special. They have EITHER 5 OR 10 coins inside. (If your child needs a break, press the space bar to pause!)"
-                            },
-                            "requiredDuration": 0,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1,
-                            "doRecording": false,
-                            "frameOffsetAfterPause": 0,
-                            "pauseAudio": "pause",
-                            "unpauseAudio": "return_after_pause",
-                            "pauseVideo": "attentiongrabber",
-                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
-                            "audioTypes": [
-                                "ogg",
-                                "mp3"
-                            ],
-                            "videoTypes": [
-                                "webm",
-                                "mp4"
-                            ]
-                        },
-                        {
-                            "kind": "exp-lookit-video",
-                            "video": {
-                                "position": "fill",
-                                "loop": false,
-                                "source": "bluebox-demo12"
-                            },
-                            "backgroundColor": "black",
-                            "autoProceed": true,
-                            "parentTextBlock": {
-                                "text": "Blue boxes are special in a different way! They have EITHER a ball OR a block inside. (If your child needs a break, press the space bar to pause!)"
-                            },
-                            "requiredDuration": 0,
-                            "requireAudioCount": 0,
-                            "requireVideoCount": 1,
-                            "doRecording": false,
-                            "frameOffsetAfterPause": 0,
-                            "pauseAudio": "pause",
-                            "unpauseAudio": "return_after_pause",
-                            "pauseVideo": "attentiongrabber",
-                            "baseDir": "https://raw.githubusercontent.com/elfnrpyrz/Lookit-Lulu/master/",
-                            "audioTypes": [
-                                "ogg",
-                                "mp3"
-                            ],
-                            "videoTypes": [
-                                "webm",
-                                "mp4"
-                            ]
-                        },
-                        {
-                            "audio": "practice_4",
-                            "images": [
-                                {
-                                    "id": "practicestim",
-                                    "src": "twobox2.png",
-                                    "position": "fill",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
-                                }
-                            ],
-                            "highlights": "HIGHLIGHTS-1",
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "In this part, you will see what is hidden inside the two boxes. Your job is to choose the button that shows where the red and the blue boxes are.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_5",
-                            "images": [
-                                {
-                                    "id": "practicestim",
-                                    "src": "twobox2.png",
-                                    "position": "fill",
-                                    "nonChoiceOption": true
-                                }
-                            ],
-                            "autoProceed": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "Let's give it a try!",
-                                "title": "For Parents"
-                            },
-                            "choiceRequired": false
-                        },
-                        {
-                            "audio": "practice_ball",
-                            "images": [
-                                {
-                                    "id": "practicestimL",
-                                    "src": "ball.gif",
-                                    "top": "5",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "durationSeconds": 10
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "The box on the left has a ball inside. The box on the right has 10 coins inside.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_coin10",
-                            "images": [
-                                {
-                                    "id": "practicestimR",
-                                    "src": "coin10.gif",
-                                    "top": "5",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "durationSeconds": 10
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "The box on the left has a ball inside. The box on the right has 10 coins inside.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_8",
-                            "images": [
-                                {
-                                    "id": "practicestimL",
-                                    "src": "ball.gif",
-                                    "top": "5",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "practicestimR",
-                                    "src": "coin10.gif",
-                                    "top": "5",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_7",
-                            "images": [
-                                {
-                                    "id": "practicestimL",
-                                    "src": "ball.gif",
-                                    "top": "5",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "practicestimR",
-                                    "src": "coin10.gif",
-                                    "top": "5",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "feedbackAudio": "feed_corr_1",
-                                    "correct": true
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "feedbackAudio": "feed_incorr_1",
-                                    "correct": false
-                                }
-                            ],
-                            "highlights": "HIGHLIGHTS-1",
-                            "autoProceed": true,
-                            "choiceRequired": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "Where are the red and the blue boxes? To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_6",
-                            "images": [
-                                {
-                                    "id": "practicestim",
-                                    "src": "twobox2.png",
-                                    "position": "fill",
-                                    "nonChoiceOption": true
-                                }
-                            ],
-                            "autoProceed": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "That was fun! Let's do it again!",
-                                "title": "For Parents"
-                            },
-                            "choiceRequired": false
-                        },
-                        {
-                            "audio": "practice_coin5",
-                            "images": [
-                                {
-                                    "id": "practicestimL",
-                                    "src": "coin5.gif",
-                                    "top": "5",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "durationSeconds": 10
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "The box on the left has 5 coins inside. The box on the right has a block inside.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_block",
-                            "images": [
-                                {
-                                    "id": "practicestimR",
-                                    "src": "block.gif",
-                                    "top": "5",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "durationSeconds": 10
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "The box on the left has 5 coins inside. The box on the right has a block inside.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_8",
-                            "images": [
-                                {
-                                    "id": "practicestimL",
-                                    "src": "coin5.gif",
-                                    "top": "5",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "practicestimR",
-                                    "src": "block.gif",
-                                    "top": "5",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": false
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "correct": true
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_7",
-                            "images": [
-                                {
-                                    "id": "practicestimL",
-                                    "src": "coin5.gif",
-                                    "top": "5",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "practicestimR",
-                                    "src": "block.gif",
-                                    "top": "5",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "top",
-                                    "src": "top-br.jpg",
-                                    "top": "60",
-                                    "left": "35",
-                                    "width": "30",
-                                    "feedbackAudio": "feed_incorr_2",
-                                    "correct": false
-                                },
-                                {
-                                    "id": "bottom",
-                                    "src": "bottom-rb.jpg",
-                                    "top": "80",
-                                    "left": "35",
-                                    "width": "30",
-                                    "feedbackAudio": "feed_corr_2",
-                                    "correct": true
-                                }
-                            ],
-                            "highlights": "HIGHLIGHTS-1",
-                            "autoProceed": true,
-                            "choiceRequired": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "Where are the red and the blue boxes? To indicate your answer, please click on the button that shows where the red and the blue boxes are. Your parent can also click on the one you choose.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "practice_9",
-                            "images": [
-                                {
-                                    "id": "practicestim",
-                                    "src": "twobox3.png",
-                                    "position": "fill",
-                                    "nonChoiceOption": true
-                                }
-                            ],
-                            "autoProceed": true,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "Great practicing! Now you know how the buttons work!",
-                                "title": "For Parents"
-                            },
-                            "choiceRequired": false
-                        }
-                    ],
-                    "parameterSets": [
-                        {
-                            "HIGHLIGHTS-1": [
-                                {
-                                    "range": [
-                                        14.75,
-                                        17
-                                    ],
-                                    "imageId": "top"
-                                },
-                                {
-                                    "range": [
-                                        18,
-                                        20
-                                    ],
-                                    "imageId": "bottom"
-                                }
-                            ],
-                            "HIGHLIGHTS-2": [
-                                {
-                                    "range": [
-                                        8,
-                                        10
-                                    ],
-                                    "imageId": "top"
-                                },
-                                {
-                                    "range": [
-                                        11,
-                                        13
-                                    ],
-                                    "imageId": "bottom"
-                                }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        },
         "testIntroFrameGroup": {
             "sampler": "permute",
             "kind": "choice",
@@ -953,7 +394,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -984,7 +425,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1023,7 +464,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1064,7 +505,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1096,7 +537,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1127,7 +568,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1164,7 +605,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1204,7 +645,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1236,7 +677,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1268,7 +709,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1307,7 +748,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1350,7 +791,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1382,7 +823,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1413,7 +854,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1452,7 +893,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1492,7 +933,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1524,7 +965,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1555,7 +996,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1594,7 +1035,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1635,7 +1076,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1667,7 +1108,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1698,7 +1139,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1737,7 +1178,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1777,7 +1218,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1829,7 +1270,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1860,7 +1301,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1899,7 +1340,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -1939,7 +1380,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -1971,7 +1412,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2002,7 +1443,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2041,7 +1482,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                              "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2081,7 +1522,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -2113,7 +1554,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2144,7 +1585,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2183,7 +1624,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2223,7 +1664,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -2255,7 +1696,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2286,7 +1727,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2325,7 +1766,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2349,8 +1790,8 @@
                                     "feedbackAudio": "thankyou"
                                 },
                                 {
-                                    "id": "question1",
-                                    "src": "q1",
+                                    "id": "question10",
+                                    "src": "q10",
                                     "top": "60",
                                     "left": "42",
                                     "width": "15",
@@ -2365,7 +1806,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -2397,7 +1838,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2428,7 +1869,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2467,7 +1908,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2507,7 +1948,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -2539,7 +1980,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2570,7 +2011,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons.",
+                              "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2609,7 +2050,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -2622,7 +2063,7 @@
                                     "top": "20",
                                     "left": "0",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "trial12r",
@@ -2630,7 +2071,7 @@
                                     "top": "20",
                                     "left": "65",
                                     "width": "35",
-                                    "nonChoiceOption": true
+                                    "feedbackAudio": "thankyou"
                                 },
                                 {
                                     "id": "question12",
@@ -2649,7 +2090,7 @@
                                     "font-size": "13pt",
                                     "padding": "0.5em"
                                 },
-                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click buttons. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
+                                "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
                                 "title": "For Parents"
                             }
                         },
@@ -2926,15 +2367,14 @@
                             "q11"    : "number.png",
                             "trial12": "shape",
                             "q12"    : "shape.png"
-                        },
-
+                        }
                     ]
                 }
             ]
         },
         "study-alldone": {
             "kind": "exp-lookit-images-audio",
-            "audio": "alldone",
+            "audio": "alldone1",
             "images": [
                       {
                             "id": "fin",
@@ -3394,7 +2834,7 @@
                             "choiceRequired": true
                         },
                         {
-                            "audio": "question3b",
+                            "audio": "question3a",
                             "images": [
                                 {
                                     "id": "q_3",
@@ -3510,7 +2950,6 @@
         "roadmap-2",
         "positioning",
         "roadmap-3",
-        "practiceFrameGroup",
         "testIntroFrameGroup",
         "testFrameGroup",
         "study-alldone",
