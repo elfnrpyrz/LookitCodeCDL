@@ -14,13 +14,19 @@
                             "mp3"
                         ],
                         "autoProceed": true,
-                        "doRecording": false,
+                        "doRecording": true,
                         "choiceRequired": true,
                         "showPreviousButton": false,
                         "allowUserPause": false,
                         "waitForRecordingMessageColor": "black"
                     },
                     "frameList": [
+                        {
+                            "kind": "exp-lookit-start-recording",
+                            "video": "",
+                            "displayFullscreen": true,
+                            "doRecording": true
+                        },
                         {
                             "audio": "intro_1",
                             "images": [
@@ -2156,17 +2162,17 @@
                             "q5"    : "shape.png",
                             "trial6": "number",
                             "q6"    : "number.png",
-                            "trial7": "shape",
+                            "trial7": "q_shape",
                             "q7"    : "shape.png",
-                            "trial8": "number",
+                            "trial8": "q_number",
                             "q8"    : "number.png",
-                            "trial9": "shape",
+                            "trial9": "q_shape",
                             "q9"    : "shape.png",
-                            "trial10": "number",
+                            "trial10": "q_number",
                             "q10"    : "number.png",
-                            "trial11": "shape",
+                            "trial11": "q_shape",
                             "q11"    : "shape.png",
-                            "trial12": "number",
+                            "trial12": "q_number",
                             "q12"    : "number.png"
                         },
                         {
@@ -2222,17 +2228,17 @@
                             "q5"    : "number.png",
                             "trial6": "shape",
                             "q6"    : "shape.png",
-                            "trial7": "number",
+                            "trial7": "q_number",
                             "q7"    : "number.png",
-                            "trial8": "shape",
+                            "trial8": "q_shape",
                             "q8"    : "shape.png",
-                            "trial9": "number",
+                            "trial9": "q_number",
                             "q9"    : "number.png",
-                            "trial10": "shape",
+                            "trial10": "q_shape",
                             "q10"    : "shape.png",
-                            "trial11": "number",
+                            "trial11": "q_number",
                             "q11"    : "number.png",
-                            "trial12": "shape",
+                            "trial12": "q_shape",
                             "q12"    : "shape.png"
 
                         },
@@ -2289,17 +2295,17 @@
                             "q5"    : "shape.png",
                             "trial6": "number",
                             "q6"    : "number.png",
-                            "trial7": "shape",
+                            "trial7": "q_shape",
                             "q7"    : "shape.png",
-                            "trial8": "number",
+                            "trial8": "q_number",
                             "q8"    : "number.png",
-                            "trial9": "shape",
+                            "trial9": "q_shape",
                             "q9"    : "shape.png",
-                            "trial10": "number",
+                            "trial10": "q_number",
                             "q10"    : "number.png",
-                            "trial11": "shape",
+                            "trial11": "q_shape",
                             "q11"    : "shape.png",
-                            "trial12": "number",
+                            "trial12": "q_number",
                             "q12"    : "number.png"
                         },
                         {
@@ -2355,17 +2361,17 @@
                             "q5"    : "number.png",
                             "trial6": "shape",
                             "q6"    : "shape.png",
-                            "trial7": "number",
+                            "trial7": "q_number",
                             "q7"    : "number.png",
-                            "trial8": "shape",
+                            "trial8": "q_shape",
                             "q8"    : "shape.png",
-                            "trial9": "number",
+                            "trial9": "q_number",
                             "q9"    : "number.png",
-                            "trial10": "shape",
+                            "trial10": "q_shape",
                             "q10"    : "shape.png",
-                            "trial11": "number",
+                            "trial11": "q_number",
                             "q11"    : "number.png",
-                            "trial12": "shape",
+                            "trial12": "q_shape",
                             "q12"    : "shape.png"
                         }
                     ]
@@ -2730,7 +2736,7 @@
                             "kind": "exp-lookit-start-recording",
                             "video": "",
                             "displayFullscreen": true,
-                            "doRecording": false
+                            "doRecording": true
                         },
                         {
                             "audio": "q_intro",
@@ -2834,7 +2840,7 @@
                             "choiceRequired": true
                         },
                         {
-                            "audio": "question3a",
+                            "audio": "question3b",
                             "images": [
                                 {
                                     "id": "q_3",
