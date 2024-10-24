@@ -222,7 +222,7 @@
                             ],
                             "parentTextBlock": {
                                 "text": [
-                                    "In one of these videos this person is playing with a Shape box and in the other one they are playing with a Number box. Can you guess which one is which?"
+                                    "In one of these videos this person is playing with a Shape box and in the other one they are playing with a Number box. Your job is to guess which video has the number box, and which video has the shape box."
                                 ]
                             },
                             "choiceRequired": false,
