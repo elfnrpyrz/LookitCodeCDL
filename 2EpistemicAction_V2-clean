@@ -372,69 +372,7 @@
                         "waitForRecordingMessageColor": "black"
                     },
                     "frameList": [
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial1l",
-                                    "src": "left1",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "displayDelayMs": 2000,
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial1r",
-                                    "src": "right1",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -516,69 +454,6 @@
                             }
                         },
                         {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial2l",
-                                    "src": "left2",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial2r",
-                                    "src": "right2",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
                             "audio": "instruction_10",
                             "images": [
                                 {
@@ -652,70 +527,6 @@
                                     "padding": "0.5em"
                                 },
                                 "text": "Please just say 'Okay!' when your child answers! If they cannot answer, encourage them to take a best guess. Please feel free to help them click on the video that they chose. If your child needs a break, make sure the indicate your answer first. Whenever you are ready to continue, click on the green button to play the next round!",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial3l",
-                                    "src": "left3",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "displayDelayMs": 2000,
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial3r",
-                                    "src": "right3",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
                                 "title": "For Parents"
                             }
                         },
@@ -801,69 +612,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial4l",
-                                    "src": "left4",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "displayDelayMs": 2000,
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial4r",
-                                    "src": "right4",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                  },
-                                  {
-                                      "id": "button",
-                                      "src": "button.png",
-                                      "top": "60",
-                                      "left": "42",
-                                      "width": "15"
-                                  }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -943,69 +692,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial5l",
-                                    "src": "left5",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial5r",
-                                    "src": "right5",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1086,69 +773,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial6l",
-                                    "src": "left6",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial6r",
-                                    "src": "right6",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1248,69 +873,7 @@
                             },
                             "choiceRequired": false
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial7l",
-                                    "src": "left7",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial7r",
-                                    "src": "right7",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1390,69 +953,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial8l",
-                                    "src": "left8",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial8r",
-                                    "src": "right8",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1532,69 +1033,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial9l",
-                                    "src": "left9",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial9r",
-                                    "src": "right9",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1674,69 +1113,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial10l",
-                                    "src": "left10",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial10r",
-                                    "src": "right10",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1816,69 +1193,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial11l",
-                                    "src": "left11",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial11r",
-                                    "src": "right11",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
@@ -1958,69 +1273,7 @@
                                 "title": "For Parents"
                             }
                         },
-                        {
-                            "audio": "box-left",
-                            "images": [
-                                {
-                                    "id": "trial12l",
-                                    "src": "left12",
-                                    "top": "20",
-                                    "left": "0",
-                                    "width": "35",
-                                    "nonChoiceOption": true,
-                                    "displayDelayMs": 2000
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 12,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                                "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
-                        {
-                            "audio": "box-right",
-                            "images": [
-                                {
-                                    "id": "trial12r",
-                                    "src": "right12",
-                                    "top": "20",
-                                    "left": "65",
-                                    "width": "35",
-                                    "nonChoiceOption": true
-                                },
-                                {
-                                    "id": "button",
-                                    "src": "button.png",
-                                    "top": "60",
-                                    "left": "42",
-                                    "width": "15"
-                                }
-                            ],
-                            "autoProceed": true,
-                            "choiceRequired": false,
-                            "durationSeconds": 10,
-                            "parentTextBlock": {
-                                "css": {
-                                    "font-size": "13pt",
-                                    "padding": "0.5em"
-                                },
-                              "text": "No need to do anything yet! For now, just watch the videos with your child.",
-                                "title": "For Parents"
-                            }
-                        },
+
                         {
                             "audio": "instruction_10",
                             "images": [
