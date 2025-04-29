@@ -9,4 +9,8 @@ Following list will be updated as different versions of codes/projects become av
     This is a code shared by CALC-Rutgers team, implementing their specific study; "Help Lulu Learn About Us".
 2) Various versions of Help Lulu Learn About Us:
     Currently using the Epistemic Action code to collect data on Lookit.
+3) Opposites Section:
+   Implementing an inhibition task developed by Baker et al., 2010.
+4) Farm Story:
+   Different implementation versions of a standard False Belief Task.
 
